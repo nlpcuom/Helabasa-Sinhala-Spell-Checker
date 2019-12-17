@@ -1,0 +1,81 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+LEXICON Root
+NounMascRetroflex22Stem;
+
+LEXICON NounMascRetroflex22Stem   
+
+අධ්‍යක්ෂවර NounMascRetroflex22;
+අධිනීතිඥවර NounMascRetroflex22;
+අධිපතිවර NounMascRetroflex22;
+අපෝස්තුලුවර NounMascRetroflex22;
+අමාත්‍යවර NounMascRetroflex22;
+ආඥාපතිවර NounMascRetroflex22;
+ඇමතිවර NounMascRetroflex22;
+ඉන්දියන්වර NounMascRetroflex22;
+කර්තෘවර NounMascRetroflex22;
+කළමනාකර NounMascRetroflex22;
+ක්‍රියාකර NounMascRetroflex22;
+කොමියුනිස්ට්වර NounMascRetroflex22;
+ග්‍රාමසේවකවර NounMascRetroflex22;
+ගුරුවර NounMascRetroflex22;
+තානාපතිවර NounMascRetroflex22;
+තැන්පතුකරදොස්තරවර NounMascRetroflex22;
+නාහිමිවර NounMascRetroflex22;
+පඬිවර NounMascRetroflex22;
+ප්‍රධානාචාර්යවර NounMascRetroflex22;
+ප්‍රමුඛාචාර්යවර NounMascRetroflex22;
+මන්ත්‍රිවර NounMascRetroflex22;
+මන්ත්‍රීවර NounMascRetroflex22;
+මහත්වර NounMascRetroflex22;
+මහාචාර්යවර NounMascRetroflex22;
+මුදලිවර NounMascRetroflex22;
+රදලවර NounMascRetroflex22;
+රදළවර NounMascRetroflex22;
+ලුතිනන්වර NounMascRetroflex22;
+ලේකම්වර NounMascRetroflex22;
+විදුහල්පතිවර NounMascRetroflex22;
+වෛද්‍යවර NounMascRetroflex22;
+ශල්‍යවෛද්‍යවර NounMascRetroflex22;
+සභාපතිවර NounMascRetroflex22;
+සහකර NounMascRetroflex22;
+සිටුවර NounMascRetroflex22;
+සෘෂිවර NounMascRetroflex22;
+හිමිවර NounMascRetroflex22;
+
+
+
+
+LEXICON NounMascRetroflex22
+
++N+RT: #;
++N+RT+PL+NOM:ු  #;
++N+RT+PL+NOM+CJ:ුත්  #;
++N+RT+PL+NOM+FN:ුයි  #;
++N+RT+SG+ID+ACC:ෙකු #;
++N+RT+PL+ACC:ුන්  #;
++N+RT+PL+ACC+CJ:ුනුත්  #;
++N+RT+PL+ACC+FN:ුනි  #;
++N+RT+SG+ID+DAT:ෙකුට #;
++N+RT+SG+ID+DAT+CJ:ෙකුටත් #;
++N+RT+SG+ID+DAT+FN:ෙකුටයි #;
++N+RT+PL+DAT:ුන්ට #;
++N+RT+PL+DAT+CJ:ුන්ටත් #;
++N+RT+PL+DAT+FN:ුන්ටයි #;
++N+RT+SG+ID+ABL:ෙකුගෙන් #;
+N+RT+SG+ID+ABL+CJ:ෙකුගෙනුත් #;
++N+RT+SG+ID+ABL+FN:ෙකුගෙනි #;
++N+RT+PL+ABL:ුන්ගෙන් #;
++N+RT+PL+ABL+CJ:ුන්ගෙනුත් #;
++N+RT+PL+ABL+FN:ුන්ගෙනි #;
++N+RT+SG+ID+GEN:ෙකුගේ #;
++N+RT+SG+ID+GEN+CJ:ෙකුගේත් #;
++N+RT+SG+ID+GEN+FN:ෙකුගේයි #;
++N+RT+SG+ID+GEN:කුගේ #;
++N+RT+SG+ID+GEN+CJ:කුගේත් #;
++N+RT+SG+ID+GEN+FN:කුගේයි #;
++N+RT+PL+GEN: ුන්ගේ #;
++N+RT+PL+GEN+CJ: ුන්ගේත් #;
++N+RT+PL+GEN+FN: ුන්ගේයි #;
++N+RT+PL+VOC:ුනි #

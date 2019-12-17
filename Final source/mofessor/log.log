@@ -1,0 +1,13 @@
+2019-11-25 08:36:25 INFO:Reading corpus from list 'wordlist_converted.txt'...
+2019-11-25 08:36:26 INFO:Done.
+2019-11-25 08:36:37 INFO:Compounds in training data: 11850 types / 11850 tokens
+2019-11-25 08:36:37 INFO:Starting batch training
+2019-11-25 08:36:37 INFO:Epochs: 0	Cost: 22080315.2676
+2019-11-25 12:47:50 INFO:Epochs: 1	Cost: 22080315.3968
+2019-11-25 16:56:52 INFO:Epochs: 2	Cost: 22080315.526
+2019-11-25 16:56:52 INFO:Done.
+2019-11-25 16:56:52 INFO:Epochs: 2
+2019-11-25 16:56:52 INFO:Final cost: 22080315.526
+2019-11-25 16:56:52 INFO:Training time: 30026.421s
+2019-11-25 16:56:52 INFO:Saving model to 'model.bin'...
+2019-11-25 16:56:52 INFO:Done.

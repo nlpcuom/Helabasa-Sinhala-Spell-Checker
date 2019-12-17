@@ -1,0 +1,54 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL +LOC +UN
+LEXICON Root
+InterjectionsStem;
+
+LEXICON InterjectionsStem
+
+ආ	Interjections;
+අනේ	Interjections;
+කොහොමද	Interjections;
+ඕ	Interjections;
+කවුද	Interjections;
+මොකක්ද	Interjections;
+අම්මේ	Interjections;
+දෝ	Interjections;
+එහෙමයි	Interjections;
+අපොයි	Interjections;
+චී	Interjections;
+අයියෝ	Interjections;
+ෂා	Interjections;
+අම්මෝ	Interjections;
+ආයි	Interjections;
+අහා	Interjections;
+උසි	Interjections;
+ෂික්	Interjections;
+ඌයි	Interjections;
+එහෙයි	Interjections;
+හුරේ	Interjections;
+ඔහෝ	Interjections;
+ආනේ	Interjections;
+අප්පච්චියේ	Interjections;
+අඩෝ	Interjections;
+උහ්	Interjections;
+අඳෝමැයි	Interjections;
+ඕහ්	Interjections;
+අඳෝ	Interjections;
+චිහ්	Interjections;
+දෝහෝ	Interjections;
+ඌහ්	Interjections;
+ෂිහ්	Interjections;
+සීසී	Interjections;
+හෙලෙයියා	Interjections;
+
+
+
+
+LEXICON Interjections
+
++N+RT: #;
+
+
+
+

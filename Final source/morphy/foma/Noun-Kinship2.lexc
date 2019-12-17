@@ -1,0 +1,95 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+LEXICON Root
+NounKinship2Stem;
+
+LEXICON NounKinship2Stem   
+
+අගමැතිතුම NounKinship2;
+අගවිනිසුරුතුම NounKinship2;
+අග්‍රවිනිශ්චයකාරතුම  NounKinship2;        #correct in Foma
+අදිකාරම්තුම NounKinship2;
+අධ්‍යක්ෂතුම NounKinship2;
+අධිපතිතුම NounKinship2;
+ආචාර්යතුම NounKinship2;
+ආණ්ඩුකාරතුම NounKinship2;
+ආදිපාදතුම NounKinship2;
+ඇදුරුතුම NounKinship2;
+ඇමතිතුම NounKinship2; 
+උතුම NounKinship2;
+එතුම NounKinship2;
+කථානායකතුම NounKinship2;
+ගුරුතුම NounKinship2;
+ජනරාල්තුම NounKinship2;
+ජනාධිපතිතුම NounKinship2;
+තුම NounKinship2;
+නායකතුම NounKinship2;
+පඬිතුම NounKinship2;
+පියතුම NounKinship2;
+පූජකතුම NounKinship2;
+බිෂොප්තුම NounKinship2;
+මන්ත්‍රීතුම NounKinship2;
+මැතිතුම NounKinship2;
+මුදලිතුම NounKinship2;
+මෙතුම NounKinship2;
+රජතුම NounKinship2;
+විද්‍යාලයාධිතුම NounKinship2;
+විනිශ්චයකාරතුම NounKinship2;
+විපක්ෂනායකතුම NounKinship2;
+හමුදාපතිතුම NounKinship2;
+
+
+LEXICON NounKinship2
+
+ා+N+RT: ා #;
+ා+N+RT+SG+DF+NOM:ා #;
+ා+N+RT+SG+DF+ACC:ා #;
+ා+N+RT+SG+DF+NOM+CJ:ාත්  #;
+ා+N+RT+SG+DF+ACC+CJ:ාත්  #;
+ා+N+RT+SG+DF+NOM+FN:ායි  #;
+ා+N+RT+SG+DF+ACC+FN:ායි  #;
+ා+N+RT+SG+ID+NOM:ෙක් #;
+ා+N+RT+SG+ID+NOM+FN:ෙකි #;
+ා+N+RT+SG+ID+NOM+CJ:ෙකුත් #;
+ා+N+RT+SG+ID+ACC+CJ:ෙකුත් #;
+ා+N+RT+PL+ACC:න්ලා  #;
+ා+N+RT+PL+NOM:ාලා  #;
+ා+N+RT+PL+VOC:න්ලාණෙනි  #;
+ා+N+RT+PL+ACC+CJ:න්ලාත්  #;
+ා+N+RT+PL+NOM+CJ:ාලාත්  #;
+ා+N+RT+PL+ACC+FN:න්ලායි  #;
+ා+N+RT+PL+NOM+FN:ාලායි  #;
+ා+N+RT+SG+ID+ACC:ෙකු #;
+ා+N+RT+SG+ID+ACC+FN:ෙකුයි #;
+ා+N+RT+SG+DF+DAT:ාට #;
+ා+N+RT+SG+DF+DAT+CJ:ාටත් #;
+ා+N+RT+SG+DF+DAT+FN:ාටයි #;
+ා+N+RT+SG+ID+DAT:ෙකුට #;
+ා+N+RT+SG+ID+DAT+CJ:ෙකුටත් #;
+ා+N+RT+SG+ID+DAT+FN:ෙකුටයි #;
+ා+N+RT+PL+DAT:න්ලාට #;
+ා+N+RT+PL+DAT+CJ:න්ලාටත් #;
+ා+N+RT+PL+DAT+FN:න්ලාටයි #;
+ා+N+RT+SG+DF+ABL:ාගෙන් #;
+ා+N+RT+SG+DF+ABL+CJ:ාගෙනුත් #;
+ා+N+RT+SG+DF+ABL+FN:ාගෙනි #;
+ා+N+RT+SG+ID+ABL:ෙකුගෙන් #;
+ා+N+RT+SG+ID+ABL+CJ:ෙකුගෙනුත් #;
+ා+N+RT+SG+ID+ABL+FN:ෙකුගෙනි #;
+ා+N+RT+PL+ABL:න්ලාගෙන් #;
+ා+N+RT+PL+ABL+CJ:න්ලාගෙනුත් #;
+ා+N+RT+PL+ABL+FN:න්ලාගෙනි #;
+ා+N+RT+SG+DF+GEN:ාගේ #;
+ා+N+RT+SG+DF+GEN+CJ:ාගේත් #;
+ා+N+RT+SG+DF+GEN+FN:ාගේයි #;
+ා+N+RT+SG+DF+GEN:ාගෙ #;
+ා+N+RT+SG+DF+GEN+CJ:ාගෙත් #;
+ා+N+RT+SG+DF+GEN+FN:ාගෙයි #;
+ා+N+RT+SG+ID+GEN:ෙකුගේ #;
+ා+N+RT+SG+ID+GEN+CJ:ෙකුගේත් #;
+ා+N+RT+SG+ID+GEN+FN:ෙකුගේයි #;
+ා+N+RT+PL+GEN:න්ලාගේ #;
+ා+N+RT+PL+GEN+CJ:න්ලාගේත් #;
+ා+N+RT+PL+GEN+FN:න්ලාගේයි #;
+ා+N+RT+SG+VOC:නි #;

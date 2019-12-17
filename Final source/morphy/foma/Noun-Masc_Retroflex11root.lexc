@@ -1,0 +1,61 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+LEXICON Root
+NounMascRetroflex11rootStem;
+
+LEXICON NounMascRetroflex11rootStem   
+
+කලුකුම් NounMascRetroflex11root;
+කුකුළු NounMascRetroflex11root;
+කූරු NounMascRetroflex11root;
+කොහ NounMascRetroflex11root;
+ගුරුළු NounMascRetroflex11root;
+තලගොයි NounMascRetroflex11root;
+තවුස් NounMascRetroflex11root;
+දෙමව්පිය NounMascRetroflex11root;
+දෙමාපිය NounMascRetroflex11root;
+පසමිතුරු NounMascRetroflex11root;
+පැංච NounMascRetroflex11root;
+පිඹුරු NounMascRetroflex11root;
+පිය NounMascRetroflex11root;
+පූස් NounMascRetroflex11root;
+පොරණැදුරු NounMascRetroflex11root;
+බකමූණු NounMascRetroflex11root;
+බමුණු NounMascRetroflex11root;
+බිහිරි NounMascRetroflex11root;
+බෝදිලිම් NounMascRetroflex11root;
+මකුණු NounMascRetroflex11root;
+මගුරු NounMascRetroflex11root;
+මසුරු NounMascRetroflex11root;
+මහැදුරු NounMascRetroflex11root;
+මෑණි NounMascRetroflex11root;
+මිතුරු NounMascRetroflex11root;
+මුනුබුරු NounMascRetroflex11root;
+මෙතුම NounMascRetroflex11root;
+මොනර NounMascRetroflex11root;
+යකැදුරු NounMascRetroflex11root;
+රකුසු NounMascRetroflex11root;
+රියදුරු NounMascRetroflex11root;
+වඳුරු NounMascRetroflex11root;
+විනිසුරු NounMascRetroflex11root;
+වෙදැදුරු NounMascRetroflex11root;
+සතුරු NounMascRetroflex11root;
+සිකුරු NounMascRetroflex11root;
+සුහුඹුලු NounMascRetroflex11root;
+සෙනසුරු NounMascRetroflex11root;
+සෙහොයුරු NounMascRetroflex11root;
+සොයුරු NounMascRetroflex11root;
+සොහොයුරු NounMascRetroflex11root;
+හතුරු NounMascRetroflex11root;
+හිතමිතුරු NounMascRetroflex11root;
+හූනු NounMascRetroflex11root;
+
+
+
+
+
+
+LEXICON NounMascRetroflex11root
+
++N+RT: #;

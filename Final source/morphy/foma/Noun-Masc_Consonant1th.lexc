@@ -1,0 +1,49 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+LEXICON Root
+NounMascConstant1thStem;
+
+LEXICON NounMascConstant1thStem   
+
+කුලවත NounMascConstant1;
+ගුණවත NounMascConstant1;
+ජගත NounMascConstant1;
+දුප්පත NounMascConstant1;
+ධනවත NounMascConstant1;
+නූගත NounMascConstant1;
+පිංවත NounMascConstant1;
+පින්වත NounMascConstant1;
+පුත NounMascConstant1;
+පෙම්වත NounMascConstant1;
+පොහොසත NounMascConstant1;
+පෝසත NounMascConstant1;
+බලවත NounMascConstant1;
+බැතිමත NounMascConstant1;
+බීමත NounMascConstant1;
+බුද්ධිමත NounMascConstant1;
+භවත NounMascConstant1;
+මිනිස NounMascConstant1;
+යුෂ්මත NounMascConstant1;
+රසවත NounMascConstant1;
+වංශවත NounMascConstant1;
+විද්වත NounMascConstant1;
+වියත NounMascConstant1;
+ශක්තිමත NounMascConstant1;
+සත NounMascConstant1;
+සමත NounMascConstant1;
+සැදැහැවත NounMascConstant1;
+සිල්වත NounMascConstant1;
+හිතවත NounMascConstant1;
+
+
+
+
+LEXICON NounMascConstant1
+
+
+්+N+RT+PL+ACC:්තු  #;
+්+N+RT+PL+ACC+CJ:්තුත්  #;
+්+N+RT+PL+ACC+FN:්තුයි  #;
+
+

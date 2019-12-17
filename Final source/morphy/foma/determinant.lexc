@@ -1,0 +1,94 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL +LOC +UN
+LEXICON Root
+DeterminantsStem;
+
+LEXICON DeterminantsStem
+
+මේ	determinants;
+ඒ	determinants;
+මෙම	determinants;
+එම	determinants;
+එක්	determinants;
+බොහෝ	determinants;
+තවත්	determinants;
+යම්	determinants;
+සියලු	determinants;
+ඇතැම්	determinants;
+වෙනත්	determinants;
+හැම	determinants;
+තව	determinants;
+සමහර	determinants;
+සෑම	determinants;
+වෙන	determinants;
+කිසි	determinants;
+අනෙක්	determinants;
+මුළු	determinants;
+ඔය	determinants;
+මෙවැනි	determinants;
+ටික	determinants;
+කිසියම්	determinants;
+කිසිම	determinants;
+අර	determinants;
+කිසිදු	determinants;
+අනික්	determinants;
+අන්	determinants;
+එක්තරා	determinants;
+නොයෙක්	determinants;
+කවර	determinants;
+එතරම්	determinants;
+එබඳු	determinants;
+මොන	determinants;
+අනෙකුත්	determinants;
+මෙබඳු	determinants;
+කුමන	determinants;
+ඕනෑම	determinants;
+සෙසු	determinants;
+බොහොම	determinants;
+කොතරම්	determinants;
+කොයි	determinants;
+කෙතරම්	determinants;
+අනිත්	determinants;
+හුඟක්	determinants;
+සැම	determinants;
+කිහිප	determinants;
+කොච්චර	determinants;
+කීප	determinants;
+මෙවන්	determinants;
+නොයෙකුත්	determinants;
+අන්‍ය	determinants;
+කවුරු	determinants;
+වෙනම	determinants;
+යම්කිසි	determinants;
+අතිශය	determinants;
+මෙතන	determinants;
+මෙතරම්	determinants;
+වැඩිපුර	determinants;
+කොතෙක්	determinants;
+කෙබඳු	determinants;
+එතන	determinants;
+මෙච්චර	determinants;
+එච්චර	determinants;
+නන්	determinants;
+හුඟ	determinants;
+ඔච්චර	determinants;
+එතනට	determinants;
+කෙතෙක්	determinants;
+මීළඟ	determinants;
+ඔතන	determinants;
+අතන	determinants;
+මොනයම්	determinants;
+අන්කිසි	determinants;
+ඔතරම්	determinants;
+අච්චර	determinants;
+
+
+
+LEXICON determinants
+
++N+RT: #;
+
+
+
+

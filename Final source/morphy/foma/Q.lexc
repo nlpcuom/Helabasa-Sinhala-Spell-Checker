@@ -1,0 +1,64 @@
+!!!SinhalaCN.lexc!!!
+
+Multichar_Symbols +N % +verb% %|% +part  +past% %=த்% %|% Part +PresPart +3P +2P +1P +past% %=த்% %|%  +Pres +Fut +Sg +Pl +Masc +Fem +Rat +Irr +Euph +Sandhi +Neg +Comp +Imp +Inf +RelPart +Con +Causal +Temp +Neu +PartNoun % +verb% %|% erbNoun +gerundPres +presParticiple
+
+LEXICON Root
+
+ClassOne ;
+
+LEXICON ClassOne
+
+
+ඉන්   CQVinf;
+ 
+
+LEXICON CQVinf
+
+% +verb:^ #;
+% +verb% +fin% +sim% +non% +3pl:^ිති #;
+% +verb% +fin% +sim% +bless% +non% +3sg:^ිත්වා #;
+% +verb% +fin% +sim% +imp% +non% +2sg:^නවා #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^නවාලා #;
+% +verb% +fin% +sim% +non% +3sgf:^නීය #;
+% +verb% +fin% +sim% +non% +1sg:^නෙමි #;
+% +verb% +fin% +sim% +bless% +non% +1sg:^නෙමිවා #;
+% +verb% +fin% +sim% +non% +1pl:^නෙමු #;
+% +verb% +fin% +sim% +bless% +non% +1pl:^නෙමුවා #;
+% +verb% +fin% +sim% +non% +2sg:^නෙහි #;
+% +verb% +fin% +sim% +bless% +non% +2sg:^නෙහිවා #;
+% +verb% +fin% +sim% +non% +3sg:^නේය #;
+% +verb% +fin% +sim% +non% +3pl:^නෝය #;
+% +verb% +fin% +sim% +imp% +non% +2sg:^පන් #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^පල්ලා #;
+% +verb% +fin% +sim% +non% +1sg:^ිමි #;
+% +verb% +fin% +sim% +bless% +non% +1sg:^ිමිවා #;
+% +verb% +fin% +sim% +non% +1pl:^ිමු #;
+% +verb% +fin% +sim% +bless% +non% +1pl:^ිමුවා #;
+% +verb% +fin% +sim% +non% +3sg:^ියි #;
+% +verb% +fin% +sim% +imp% +non% +2sg:^දව #;
+% +verb% +fin% +sim% +caus% +non% +3pl:^දවති #;
+% +verb% +fin% +sim% +caus% +non% +3sgf:^දවන්නීය #;
+% +verb% +fin% +sim% +caus% +non% +1sg:^දවන්නෙමි #;
+% +verb% +fin% +sim% +caus% +non% +1pl:^දවන්නෙමු #;
+% +verb% +fin% +sim% +caus% +non% +2sg:^දවන්නෙහි #;
+% +verb% +fin% +sim% +caus% +non% +2pl :^දවන්නෙහු #;
+% +verb% +fin% +sim% +caus% +non% +3sg:^දවන්නේය #;
+% +verb% +fin% +sim% +caus% +non% +3pl:^දවන්නෝය #;
+% +verb% +fin% +sim% +caus% +non% +1sg:^දවමි #;
+% +verb% +fin% +sim% +caus% +non% +1pl:^දවමු #;
+% +verb% +fin% +sim% +caus% +non% +3sg:^දවයි #;
+% +verb% +fin% +sim% +caus% +non% +2sg:^දවහි #;
+% +verb% +fin% +sim% +caus% +non% +2pl:^දවහු #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^ිවු #;
+% +verb% +fin% +sim% +non% +2sg:^දහි #;
+% +verb% +fin% +sim% +bless% +non% +2sg:^දහිවා #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^දහු #;
+% +verb% +fin% +sim% +caus% +non% +2pl:^දහුවා #;
+% +verb% +nonf% +sim% +non% +mixV:^දමින් #;
+% +verb% +nonf% +sim% +non% +preV:^ගෙන #;
+% +verb% +nonf% +sim% +non:^නට #;
+% +verb% +nonf% +sim% +non:^දවන්නට #;
+% +verb% +nonf% +sim% +past:^නලද #;
+% +verb% +nonf% +sim% +non:^දවමින් #;
+% +verb% +nonf% +sim% +non:^ිද්දී #;
+% +verb% +fin% +sim% +past:^නලදී #;

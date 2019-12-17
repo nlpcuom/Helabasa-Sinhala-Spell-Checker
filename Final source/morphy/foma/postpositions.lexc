@@ -1,0 +1,165 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL +LOC +UN
+LEXICON Root
+PostpositionsStem;
+
+LEXICON PostpositionsStem
+	
+	
+බව	Postpositions;
+සඳහා	Postpositions;
+ලෙස	Postpositions;
+ගැන	Postpositions;
+විසින්	Postpositions;
+තුළ	Postpositions;
+වශයෙන්	Postpositions;
+පිළිබඳ	Postpositions;
+අනුව	Postpositions;
+පසු	Postpositions;
+මෙන්	Postpositions;
+සිට	Postpositions;
+වැනි	Postpositions;
+බවට	Postpositions;
+මත	Postpositions;
+සේ	Postpositions;
+පෙර	Postpositions;
+වෙත	Postpositions;
+මගින්	Postpositions;
+දක්වා	Postpositions;
+පිණිස	Postpositions;
+පටන්	Postpositions;
+ඇතුළු	Postpositions;
+වගේ	Postpositions;
+පරිදි	Postpositions;
+පසුව	Postpositions;
+යටතේ	Postpositions;
+වෙනුවෙන්	Postpositions;
+පහළ	Postpositions;
+හැර	Postpositions;
+පිට	Postpositions;
+ඉහළ	Postpositions;
+තුළින්	Postpositions;
+සම්බන්ධයෙන්	Postpositions;
+පුරා	Postpositions;
+හෙවත්	Postpositions;
+ඉහත	Postpositions;
+කරා	Postpositions;
+හෙයින්	Postpositions;
+හට	Postpositions;
+ඉදිරියට	Postpositions;
+වෙනුවට	Postpositions;
+හැටියට	Postpositions;
+යට	Postpositions;
+මඟින්	Postpositions;
+ළඟ	Postpositions;
+හරහා	Postpositions;
+අසල	Postpositions;
+බැහැර	Postpositions;
+උඩ	Postpositions;
+කල්හි	Postpositions;
+අතරින්	Postpositions;
+ඔස්සේ	Postpositions;
+උදෙසා	Postpositions;
+මිස	Postpositions;
+වටා	Postpositions;
+ඉදිරියේ	Postpositions;
+අවට	Postpositions;
+ඈත	Postpositions;
+තුළට	Postpositions;
+බඳු	Postpositions;
+ළඟට	Postpositions;
+වෙතට	Postpositions;
+තිස්සේ	Postpositions;
+පිටත	Postpositions;
+සම්බන්ධව	Postpositions;
+මෙනි	Postpositions;
+දිගේ	Postpositions;
+එමගින්	Postpositions;
+දිගට	Postpositions;
+ලෙසට	Postpositions;
+අතුරින්	Postpositions;
+වස්	Postpositions;
+වෙතින්	Postpositions;
+ඉවත	Postpositions;
+ඉහළින්	Postpositions;
+එහා	Postpositions;
+පහළට	Postpositions;
+වාගේ	Postpositions;
+යටින්	Postpositions;
+වන්	Postpositions;
+පිටතට	Postpositions;
+අතරට	Postpositions;
+පිටින්	Postpositions;
+අරබයා	Postpositions;
+ඉහළට	Postpositions;
+උඩට	Postpositions;
+ආශ්‍රිතව	Postpositions;
+අතරේ	Postpositions;
+ඇතුළට	Postpositions;
+දෙපස	Postpositions;
+පුරාම	Postpositions;
+ඉදිරිපිට	Postpositions;
+අතුරෙන්	Postpositions;
+පිටුපස	Postpositions;
+ඉදිරියෙන්	Postpositions;
+මැදින්	Postpositions;
+විනා	Postpositions;
+පෙරට	Postpositions;
+පසුපස	Postpositions;
+වටේ	Postpositions;
+පරිද්දෙන්	Postpositions;
+අතරතුර	Postpositions;
+අසලට	Postpositions;
+මතට	Postpositions;
+එහාට	Postpositions;
+ඇතුළුව	Postpositions;
+කෙළින්ම	Postpositions;
+අසලින්	Postpositions;
+ළඟින්	Postpositions;
+ඉඳන්	Postpositions;
+හින්ද	Postpositions;
+මිසක්	Postpositions;
+මගිනි	Postpositions;
+ඉස්සරහ	Postpositions;
+මතින්	Postpositions;
+ඉදිරිපස	Postpositions;
+අබියස	Postpositions;
+අරභයා	Postpositions;
+ඔබ්බට	Postpositions;
+යාබද	Postpositions;
+යටතට	Postpositions;
+ඇතුළේ	Postpositions;
+පසෙකින්	Postpositions;
+පහතට	Postpositions;
+වනතුරු	Postpositions;
+සමගින්	Postpositions;
+මුලට	Postpositions;
+අද්දර	Postpositions;
+ඔබ්බෙන්	Postpositions;
+අතරමග	Postpositions;
+යාබදව	Postpositions;
+අසබඩ	Postpositions;
+අතරමඟ	Postpositions;
+ඔබ්බෙහි	Postpositions;
+සමඟින්	Postpositions;
+පහතින්	Postpositions;
+ඇතුළෙන්	Postpositions;
+අද්දරට	Postpositions;
+අබියසට	Postpositions;
+අද්දරින්	Postpositions;
+අබියසින්	Postpositions;
+අබියෙස	Postpositions;
+	
+
+
+
+
+
+LEXICON Postpositions
+
++N+RT: #;
+
+
+
+

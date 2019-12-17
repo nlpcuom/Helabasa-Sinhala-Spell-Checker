@@ -1,0 +1,1062 @@
+### Sinhala.foma ###
+
+define X [ ාත් | ා | ායි | ​ෙක් | ෙකි | ​ෙකුත් | ෝ | ෝත් | ෝත් | ෙකු | කු | ෙකුත් | ෙකි | කුත් | කුයි | න් | නුත් | නි | ාට | ාටත් | ාටයි | ෙකුට | ෙකුටත් | ෙකුටයි | කුට | කුටත් | කුටයි | න්ට | න්ටත් | න්ටයි | ​ාගෙන් | ාගෙනුත් | ාගෙනි | ෙකුගෙන් | ෙකුගෙනුත් | ෙකුගෙනි | කුගෙන් | කුගෙනුත් | කුගෙනි | න්ගෙන් | න්ගෙනුත් | න්ගෙනි | ාගේ | ාගේත් | ාගේයි | ාගේයි | ගෙත් | ගෙයි | ෙකුගේ | ෙකුගේත් | ෙකුගේයි | ​කුගේ | කුගේත් | කුගේයි | න්ගේ | න්ගේත්| න්ගේයි| නි;
+
+define B [ ත | තට | තක | තකට | තෙන් | තේ ];
+               	    
+read lexc Noun-Fem-frontVowelMidVowel.lexc
+define LexiconA;
+
+
+
+######### Rewrite rules
+
+
+define ThuClass  ි-> 0 || _ ී;
+
+define ClassOneGrammar 	LexiconA            .o.
+                        ThuClass;
+
+read lexc Noun-Fem-backVowel.lexc
+define LexiconB;
+
+read lexc Noun-Fem-frontVowelMidVowel2.lexc
+define LexiconD;
+
+read lexc Noun-Fem-constant1.lexc
+define LexiconE;
+
+read lexc Noun-Irregular-Animate.lexc
+define LexiconF;
+
+read lexc Noun-Kinship1.lexc
+define ClassTwoGrammar;
+
+
+read lexc Noun-Kinship2.lexc
+define ClassThreeGrammar;
+
+
+               	    
+read lexc Noun-Kinship3.lexc
+define LexiconG;
+
+
+read lexc Noun-Masc_BackVowel.lexc
+define LexiconH;
+
+read lexc Noun-Masc_FrontVowelMidVowel.lexc
+define LexiconI;
+
+
+read lexc Noun-Neut_BackVowel.lexc
+define LexiconJ;
+
+read lexc Noun-Neut_consonant.lexc
+define LexiconK;
+
+read lexc Noun-Neut_FrontMidVowel.lexc
+define LexiconL;
+
+read lexc Noun-Neut_Retroflex2.lexc
+define LexiconM;
+
+
+read lexc Noun-Masc_Germinated_Constant.lexc
+define LexiconN;
+
+read lexc Noun-Masc.Consonant1.lexc
+define LexiconBA;
+
+read lexc Noun-Neut_Retroflex1.lexc
+define LexiconX;
+
+read lexc Noun-Neut_MidVowel.lexc
+define LexiconY;
+
+read lexc Noun-Masc_Germinated_Constant2.lexc
+define ClassFourGrammar;
+
+
+read lexc Noun-Masc_Germinated_Constant3.lexc
+define ClassFiveGrammar;
+
+read lexc Noun-NeutGerminatedConsonant.lexc
+define ClassSixGrammar;
+
+read lexc Noun-NeutGerminatedConsonant1.lexc
+define ClassSevenGrammar;
+
+read lexc Noun-Uncountable.lexc
+define ClassEightGrammar;
+
+read lexc Noun-UncountableConsEnd.lexc
+define ClassNineGrammar;
+
+read lexc conjunction.lexc
+define ClassTenGrammar;
+
+read lexc determinant.lexc
+define LexiconAA;
+
+read lexc interjection.lexc
+define LexiconAB;
+
+read lexc particles.lexc
+define LexiconAC;
+
+read lexc stopwords.lexc
+define LexiconAD;
+
+read lexc postpositions.lexc
+define LexiconAE;
+
+read lexc Noun-Masc_Consonant1.lexc
+define LexiconAF;
+
+read lexc Noun-Masc_Retroflex22.lexc
+define LexiconAG;
+
+read lexc Noun-Masc_Retroflex11.lexc
+define LexiconAH;
+
+read lexc Noun-Masc_Retroflex11root.lexc
+define LexiconAI;
+
+read lexc Noun-Masc_Retroflex12.lexc
+define LexiconAJ;
+
+read lexc Noun-Masc_Retroflex21.lexc
+define LexiconAK;
+
+read lexc Noun-Masc_Consonant1th.lexc
+define LexiconAL;
+
+read lexc Noun-Masc_Consonant1L.lexc
+define LexiconAM;
+
+read lexc AnimHalStem.lexc
+define LexiconB;
+
+######### Rewrite rules
+
+define AnimHalClass ් -> 0;
+define Cleanup "^" -> 0;
+
+define ClassTenGrammar 	LexiconB            .o.
+                        AnimHalClass	   .o.
+			Cleanup;
+
+read lexc AnimYaStem.lexc
+define LexiconD;
+
+######### Rewrite rules
+
+define AnimYaClass ි -> 0;
+define Cleanup "^" -> 0;
+
+define ClassElevenGrammar 	LexiconD            .o.
+                        	AnimYaClass	   .o.
+				Cleanup;
+               	    
+
+
+
+
+################VERBS
+
+define A [ක | ​ඛ | ග | ​ඝ | ච | ​ඡ | ජ | ට | ඨ | ඩ | ඪ | ණ | ත | ද | ධ | න | ප | ඵ | බ | භ | ම | ය | ර | ල | ව | ශ | ෂ | ස | හ | ළ | ​ෆ | ඟ | ඬ | ඳ | ඹ];
+
+define Ba1 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු | ු ව ෙ හ ි | ු ව ෙ හ ු | ු ව ා ය | ු ව ේ ය | ු ව ෝ ය | ව ේ | ෙ ම ි | ෙ ම ු | ෙ ය ි | ෙ හ ු | ෙ ත ි | ෙ හ ි | ව ෙ ය ි | ව ෙ ත ි | ේ | ි ය | ු ව ො ත ් | ු ව ේ ];
+
+
+
+read lexc a1.lexc
+define Lexicona1;
+
+define BalaClass        [..]  -> ැ || A _ A  "^" Ba1 ;
+
+
+define Cleanup "^" -> 0;
+
+define Classa1Grammar 	Lexicona1            .o.
+                        BalaClass          .o.
+               	        Cleanup;
+
+
+
+read lexc a2.lexc
+define Lexicona2;
+
+define Cleanup "^" -> 0;
+
+define Classa2Grammar 	Lexicona2            .o.
+               	        Cleanup;
+
+
+define Ba3 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු | ු ව ෙ හ ි | ු ව ෙ හ ු | ු ව ා ය | ු ව ේ ය | ු ව ෝ ය | ව ේ | ෙ ම ි | ෙ ම ු | ෙ ය ි | ෙ හ ු | ෙ ත ි | ෙ හ ි | ව ෙ ය ි | ව ෙ ත ි | ේ | ි ය | ු ව ො ත ් | ු ව ේ ];
+
+
+read lexc a3.lexc
+define Lexicona3;
+
+######### Rewrite rules
+
+define BalaClassa3        [..]  -> ැ || A _ [A A |A ් A | ං A]  "^" Ba3 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classa3Grammar 	Lexicona3            .o.
+                        BalaClassa3          .o.
+               	        Cleanup;
+
+
+
+define Ba4 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු | ු ව ෙ හ ි | ු ව ෙ හ ු | ු ව ා ය | ු ව ේ ය | ු ව ෝ ය | ව ේ | ෙ ම ි | ෙ ම ු | ෙ ය ි | ෙ හ ු | ෙ ත ි | ෙ හ ි | ව ෙ ය ි | ව ෙ ත ි | ේ | ි ය | ු ව ො ත ් | ු ව ේ ];
+
+
+read lexc a4.lexc
+define Lexicona4;
+
+
+define AgayaClass          අ -> ඇ || .#. _ ?*  "^" Ba4 ;
+define UyaClass            උ -> ඉ || .#. _ ?*  "^" Ba4 ;
+define OthaClass           ඔ -> එ || .#. _ ?*  "^" Ba4 ;
+define KotaClass         ො -> ෙ || .#. A _ ?*  "^" Ba4 ;
+define SoodaClass        ෝ -> ේ || .#. A _ ?*  "^" Ba4 ;
+define PaadaClass          ා -> ෑ || .#. A _ ?*  "^" Ba4 ;
+define DuwaClass           ු -> ි || .#. A _ ?*  "^" Ba4 ;
+
+
+define Cleanup "^" -> 0;
+
+define Classa4Grammar 	Lexicona4            .o.
+                        AgayaClass         .o.
+                        UyaClass           .o.
+                        OthaClass          .o.
+                        KotaClass          .o.
+                        SoodaClass         .o.
+                        PaadaClass         .o.
+                        DuwaClass          .o.
+               	        Cleanup;
+
+define Ba5 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු | ු ව ෙ හ ි | ු ව ෙ හ ු | ු ව ා ය | ු ව ේ ය | ු ව ෝ ය | ව ේ | ෙ ම ි | ෙ ම ු | ෙ ය ි | ෙ හ ු | ෙ ත ි | ෙ හ ි | ව ෙ ය ි | ව ෙ ත ි | ේ | ි ය | ු ව ො ත ් | ු ව ේ ];
+
+
+
+read lexc a5.lexc
+define Lexicona5;
+
+
+define PathuraClass1         [..] -> ැ || .#. A _ A ?*  "^" Ba5 ;
+define PathuraClass2          ු  -> ි || .#. A ැ A _ ?* "^" Ba5 ;
+define AkulaClass1             අ -> ඇ || .#. _ ?*  "^" Ba5 ;
+define UduraClass1             උ -> ඉ || .#. _ ?*  "^" Ba5 ;
+define AkulaClass2             ු -> ි || .#. [ඇ | ඉ] A _ ?* "^" Ba5 ;
+define UganwaClass2          [..] -> ැ || .#. ඉ A _ A ?* "^" Ba5 ;
+define KalaththaClass2       [..] -> ැ || .#. A ැ A _ A ් A "^" Ba5 ;
+define HadaaraClass2           ා -> ෑ || .#. A ැ A _ A "^" Ba5 ;
+define PupuraClass1            ු -> ි || .#. A _ A ?* "^" Ba5 ;
+define PupuraClass2            ු -> ි || .#. A ි A _ A ?* "^" Ba5 ;
+
+define Cleanup "^" -> 0;
+
+define Classa5Grammar 	Lexicona5                .o.
+                        PathuraClass1          .o.
+                        PathuraClass2          .o.
+                        AkulaClass1            .o.
+                        UduraClass1            .o.
+                        AkulaClass2            .o.
+                        UganwaClass2           .o.
+                        KalaththaClass2        .o.
+                        HadaaraClass2          .o.
+                        PupuraClass1           .o.
+                        PupuraClass2           .o.
+               	        Cleanup;
+
+define Ba6 [ ු ණ ු | ූ | ෙ ම ි | ෙ ම ු | ෙ හ ි | ෙ හ ු | ා ය | ේ ය | ෝ ය | ේ | ෙ ය ි | ෙ ත ි | ව ෙ ය ි | ව ෙ ත ි | ව ේ | ි ය | ු ව ො ත ් | ු ව ේ];
+
+
+
+read lexc a6.lexc
+define Lexicona6;
+
+
+define PalandaClass        [..]  -> ැ || .#. A _ A A ් A  "^" Ba6 ;
+define BassaClass        [..]  -> ැ || A _ A ් A  "^" Ba6 ;
+define AndaClass           අ  -> ඇ || .#. _ A ් A  "^" Ba6 ;
+
+define Cleanup "^" -> 0;
+
+define Classa6Grammar 	Lexicona6             .o.
+                        PalandaClass        .o.
+                        BassaClass          .o.
+                        AndaClass           .o.
+               	        Cleanup;
+
+read lexc B.lexc
+define LexiconB;
+
+
+
+define Bb1 [ ී ව ා |ී ]; 
+
+define Cb1 [ප න ් | ප ල ් ල ා | ව |ව න ් න ට | ව ම ි න ්| ු ණ ු | ේ | ෙ ම ි | ෙ ම ු | ෙ හ ි | ෙ හ ු | ෙ ය ි | ෙ ත ි | ව ෙ ය ි | ව ෙ ත ි | ව ේ | ය | ව ා | ව න ් න  ේ | ි ය |  ව ා | ව න ් න ේ]; 
+
+define Db1 [ද | ස | ග | ට | ත ];
+
+
+define CBRule1  ි -> 0 || _ "^" [Bb1 | Cb1 | Db1] ;
+define CBRule2  අ -> ඇ ||  _ A "^" [Cb1|Db1] ;
+define CBRule3  [..] -> ැ || A _ A "^" [Cb1|Db1] ;
+define CBRule4  Db1 -> 0 || _ "^" [Db1];
+
+
+define Cleanup "^" -> 0;
+
+define B1Grammar 	LexiconB .o.
+		CBRule1		.o.
+		CBRule3		.o.
+              	CBRule2		.o.
+		CBRule4		.o.
+		Cleanup;
+
+read lexc C1.lexc
+define LexiconC1;
+
+
+
+define BC1 [ව ත ි | ව න ් න ී ය |ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ේ ය |
+ ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ් | ව න ් න ේ ];    
+
+define CC1 [ප න ් | ප ල ් ල ා |ු ණ ු  | ෙ හ ි | ෙ හ ු | ව ෙ ය ි | ව ෙ ත ි | ව ේ |  ි ය |  ව ා | ව න ් න ේ]; 
+
+define DC1 [ ් ද | ් ද ෙ ම ි| ් ද ෙ ම ු | ් ද ෙ හ ි | ් ද ෙ හ ු | ් ද ේ ය | ් ද ා ය | ් ද ෝ ය | ් ද ො ත ් | ් ද ු ව ේ];
+
+
+
+######### Rewrite rules
+
+define CCRule1  ි -> 0 || _ "^" [BC1 | CC1 | DC1 | ඳ] ;
+define CCRule2  ඳ -> න ් ද || _ "^" [BC1 ];
+define CCRule5  ඳ -> න || _ "^" [DC1];
+define CCRule3  අ -> ඇ ||  _ A "^" [CC1 | DC1 |ඳ] ;
+define CCRule4  [..] -> ැ || A _ A "^" [CC1 | DC1 | ඳ];
+define CCRule6  ඳ -> 0 || _ "^" ඳ;
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define C1Grammar 	LexiconC1 .o.
+		CCRule1		.o.
+              	CCRule3		.o.
+		CCRule4		.o.
+		CCRule2		.o.
+		CCRule5		.o.
+		Cleanup;
+
+
+
+read lexc C2.lexc
+define LexiconC2;
+
+
+
+define BC2 [ව ත ි | ව න ් න ී ය |ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ේ ය |
+ ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ් | ව න ් න ේ ];    
+
+define CC2 [ප න ් | ප ල ් ල ා |ු ණ ු  | ෙ හ ි | ෙ හ ු | ව ෙ ය ි | ව ෙ ත ි | ව ේ]; 
+
+define DC2 [ ් බ | ් බ ෙ ම ි| ් බ ෙ ම ු | ් බ ෙ හ ි | ් බ ෙ හ ු | ් බ ේ ය | ් බ ා ය | ් බ ෝ ය  | ් බ ො ත ් | ් බ ු ව ේ];
+
+
+
+######### Rewrite rules
+
+define CC2Rule1  ි -> 0 || _ "^" [BC2 | CC2 | DC2] ;
+define CC2Rule2  ඹ -> ම ් බ || _ "^" [BC2 ];
+define CC2Rule5  ඹ -> ම || _ "^" [DC2];
+
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define C2Grammar 	LexiconC2 .o.
+		CC2Rule1		.o.
+              
+		CC2Rule2		.o.
+		CC2Rule5		.o.
+		Cleanup;
+
+
+read lexc C3.lexc
+define LexiconC3;
+
+
+
+define BC3 [ව ත ි | ව න ් න ී ය |ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ේ ය |
+ ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ් | ප න ් | ප ල ් ල ා | ව න ් න ේ  | න ් න ේ | ො ත ් | ව ා | න ු ය ේ];    
+
+define CC3 [ ව ේ|ු ණ ු  | ෙ හ ි | ෙ හ ු | ව ෙ ය ි | ව ෙ ත ි |  ි ය  | ු ව ේ ]; 
+
+define DC3 [ ් ද | ් ද ෙ ම ි| ් ද ෙ ම ු | ් ද ෙ හ ි | ් ද ෙ හ ු | ් ද ේ ය | ් ද ා ය | ් ද ෝ ය ];
+
+
+
+######### Rewrite rules
+
+define CC3Rule1  ි -> 0 || _ "^" [BC3 | CC3 | DC3 | ඳ] ;
+define CC3Rule5  ඳ -> න || _ "^" [DC3];
+define CC3Rule4  [..] -> ැ ||  A _ A A "^" [CC3 | DC3 | ඳ];
+define CC3Rule2  ඳ -> 0 || _ "^" ඳ;
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define C3Grammar 	LexiconC3 .o.
+		CC3Rule1		.o.
+		CC3Rule4		.o.
+		CC3Rule5		.o.
+		CC3Rule2		.o.		
+		Cleanup;
+
+read lexc D1.lexc
+define LexiconD1;
+
+
+
+define BD1 [ ව |  ව ත  ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි| ව න ් න ෙ හ ු| ව න ් න ේ ය | ව න ් න ෝ ය | ව න ් න ට | ව ම ි න ් | ව ා | ව න ් න ේ ];    #######අමද 
+
+define CD1 [ප න ් | ප ල ් ල ා | ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු| ු ව ෙ හ ි|  ු ව ෙ හ ු | ු ව ේ ය| ු ව ා ය | ු ව ෝ ය | ෙ හ ි | ෙ හ ු|ව ෙ ය ි |ව ෙ ත ි |ව ේ |ි ය |ු ව ො ත ් | ු ව ේ | ි ය];   #####ඇමද 
+
+
+
+
+
+######### Rewrite rules
+
+define CD1Rule1  ි -> 0 || _ "^" [BD1 | CD1 ] ;
+define CD1Rule2  අ -> ඇ ||  .#. _ ?* "^" CD1 ;
+define CD1Rule3  [..] -> ැ || A _ A "^" CD1 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define D1Grammar 	LexiconD1 .o.
+		CD1Rule1		.o.
+		CD1Rule3		.o.
+              	CD1Rule2		.o.
+		Cleanup;
+
+
+read lexc D2.lexc
+define LexiconD2;
+
+
+
+define BD2 [ප න ් | ප ල ් ල ා | ව |  ව ත  ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි| ව න ් න ෙ හ ු| ව න ් න ේ ය | ව න ් න ෝ ය | ව න ් න ට | ව ම ි න ් | ව ා | ව න ් න ේ]; 
+
+define CD2 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු| ු ව ෙ හ ි|  ු ව ෙ හ ු | ු ව ේ ය| ු ව ෝ ය | ු ව ා ය | ෙ හ ි | ෙ හ ු|ව ෙ ය ි |ව ෙ ත ි |ව ේ  |ි ය |ු ව ො ත ් | ු ව ේ | ි ය];   #####ඇමද 
+
+
+
+######### Rewrite rules
+
+define CD2Rule1  ි -> 0 || _ "^" [BD2 | CD2 ] ;
+define CD2Rule2   ු ->  ි ||  _ A "^" CD2 ;
+#define CD2Rule3  [..] -> ැ || A _ A "^" CD2 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define D2Grammar 	LexiconD2 .o.
+		CD2Rule1		.o.
+		#CD2Rule3		.o.
+              	CD2Rule2		.o.
+		Cleanup;
+
+
+read lexc D3.lexc
+define LexiconD3;
+
+
+define BD3 [ප න ් | ප ල ් ල ා | ව |  ව ත  ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි| ව න ් න ෙ හ ු| ව න ් න ේ ය | ව න ් න ෝ ය | ව න ් න ට | ව ම ි න ් | ව ා | ව න ් න ේ]; 
+
+define CD3 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු| ු ව ෙ හ ි|  ු ව ෙ හ ු | ු ව ේ ය| ු ව ෝ ය | ු ව ා ය | ෙ හ ි | ෙ හ ු|ව ෙ ය ි |ව ෙ ත ි |ව ේ |ි ය |ු ව ො ත ් | ු ව ේ |  ි ය];   #####ඇමද 
+
+
+
+######### Rewrite rules
+
+define CD3Rule1  ි -> 0 || _ "^" [BD3 | CD3 ] ;
+#define CD3Rule2   ු ->  ි ||  _ A "^" CD3 ;
+#define CD3Rule3  [..] -> ැ || A _ A "^" CD3 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define D3Grammar 	LexiconD3 .o.
+		CD3Rule1		.o.
+		#CD3Rule3		.o.
+              	#CD3Rule2		.o.
+		Cleanup;
+
+
+read lexc D4.lexc
+define LexiconD4;
+
+
+define BD4 [ප න ් | ප ල ් ල ා | ව |  ව ත  ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි| ව න ් න ෙ හ ු| ව න ් න ේ ය | ව න ් න ෝ ය | ව න ් න ට | ව ම ි න ් | ව ා | ව න ් න ේ]; 
+
+define CD4 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු| ු ව ෙ හ ි|  ු ව ෙ හ ු | ු ව ේ ය| ු ව ෝ ය | ු ව ා ය | ෙ හ ි | ෙ හ ු|ව ෙ ය ි |ව ෙ ත ි |ව ේ |ි ය |ු ව ො ත ් | ු ව ේ | ි ය];   #####ඇමද 
+
+
+
+######### Rewrite rules
+
+define CD4Rule1  ි -> 0 || _ "^" [BD4 | CD4 ] ;
+define CD4Rule2   අ -> ඇ || .#. _ ?* "^" CD4 ;
+define CD4Rule3  [..] -> ැ || .#. A _ A ?* "^" CD4 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define D4Grammar 	LexiconD4 .o.
+		CD4Rule1		.o.
+		CD4Rule3		.o.
+              	CD4Rule2		.o.
+		Cleanup;
+
+
+
+read lexc D5.lexc
+define LexiconD5;
+
+
+
+define BD5 [ප න ් | ප ල ් ල ා | ව |  ව ත  ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි| ව න ් න ෙ හ ු| ව න ් න ේ ය | ව න ් න ෝ ය | ව න ් න ට | ව ම ි න ්| ව ා | ව න ් න ේ]; 
+
+
+define CD5 [ ී |ව ෙ ය ි |ව ෙ  ි|ව ේ];   #####ඇමද 
+
+
+
+######### Rewrite rules
+
+define CD5Rule1  ි -> 0 || _ "^" [BD5 | CD5 ] ;
+#define CD5Rule2   අ -> ඇ || .#. _ ?* "^" CD5 ;
+#define CD5Rule3  [..] -> ැ || .#. A _ A ?* "^" CD5 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define D5Grammar 	LexiconD5 .o.
+		CD5Rule1		.o.
+		#CD5Rule3		.o.
+              #	CD5Rule2		.o.
+		Cleanup;
+
+
+read lexc E1.lexc
+define LexiconE1;
+
+
+define BE1 [  ව ම ි න ් |ව ත  ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ෙ හ ු | ව න ් න ේ ය | ව න ් න ෝ ය  |ව ා | ව න ් න ේ]; 
+define EE1 [ ප න ් | ප ල ් ල ා ]; 
+
+define GE1 [ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු ];  
+
+define DE1 [ී ව ා |ා | න ් න ට |ී];
+
+define CE1 [  ු ණ ු |ූ |ු න ෙ ම ි | ු න ෙ ම ු |ු න ෙ හ ි | ු න ෙ හ ු | ු න ා ය | ු න ේ ය | ු න ෝ ය |  ේ
+ | ෙ ම ි | ෙ ම ු | ෙ හ ි | ෙ හ ු | ෙ ය ි | ෙ ත ි | ව ෙ ය ි | ව ෙ ත ි | ව ේ |ි ය | ු ව ො ත් | ු ව ේ]; 
+
+
+
+######### Rewrite rules
+
+define CERule1  ි -> 0 || _ "^" [BE1 |EE1 | CE1 | DE1 | GE1] ;
+define CERule2 ත -> ත ් ත || _ "^" [BE1 |EE1 ];
+define CERule4 ත -> ත ්  || _ "^" [GE1];
+define CERule2i ක -> ක ්  || _ "^" [BE1 | GE1 ];
+define CERule3  [..] -> ැ || .#. A _ A ? * "^" CE1 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define E1Grammar 	LexiconE1 .o.
+		CERule1		.o.
+		CERule2		.o.
+		CERule2i	.o.
+              	CERule3		.o.
+		CERule4		.o.
+		Cleanup;
+
+
+define Bf1 [ ු ණ ු | ු න ෙ ම ි | ු න ෙ ම ු | ු න ෙ හ ි | ු න ෙ හ ු | ු න ේ ය | ු න ා ය | ු න ෝ ය | ි ය න ් | ි ය ල ් ල ා];
+
+define Cf1 [ව | ව ත ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ෙ හ ු | ව න ් න ේ ය | ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ්];
+
+define Df1 [ේ | ෙ ම ි | ෙ ම ු | ෙ හ ි | ෙ හ ු | ෙ ය ි | ෙ ත ි | ව ෙ ය ි | ව ෙ ත ි | ව ේ | ි ය | ු න ො ත ් | ු න ේ];
+
+define Ef1 [ි ද];
+
+
+read lexc f1.lexc
+define Lexiconf1;
+
+######### Rewrite rules
+
+###
+define UpadiAClass          ි -> 0 || A _ "^" [Bf1 | Cf1 | Df1 | Ef1] ;
+define UpadiBClass          උ -> ඉ || .#. _ ?* "^" [Bf1 | Df1 | Ef1] ;
+define UpadiCClass          ද -> 0 || A _ "^" Ef1 ;
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define ClassE1Grammar 	Lexiconf1                 .o.
+                        UpadiAClass             .o.
+                        UpadiBClass             .o.
+                        UpadiCClass             .o.
+               	        Cleanup;
+
+define Bf2 [ ු ණ ු | ු න ෙ ම ි | ු න ෙ ම ු | ු න ෙ හ ි | ු න ෙ හ ු | ු න ේ ය | ු න ා ය | ු න ෝ ය | ී | ි ය න ් | ි ය ල ් ල ා];
+
+define Df2 [ේ | ෙ ම ි | ෙ ම ු | ෙ හ ි | ෙ හ ු | ෙ ය ි | ෙ ත ි | ි ය | ු න ො ත ් | ු න ේ];
+
+
+read lexc f2.lexc
+define Lexiconf2;
+
+######### Rewrite rules
+
+###
+define WadiAClass          ි -> 0 || A _ "^" [Bf2 | Df2] ;
+define WadiBClass          [..] -> ැ || .#. A _ A "^" [Bf2 | Df2] ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define ClassF2Grammar 	Lexiconf2                .o.
+                        WadiAClass             .o.
+                        WadiBClass             .o.
+               	        Cleanup;
+
+
+define Bf3 [ග ෙ න];
+
+define Cf3 [ව | ව ත ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ෙ හ ු | ව න ් න ේ ය | ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ්];
+
+define Df3 [ ි ය | ු න ො ත ් | ු න ේ];
+
+
+
+read lexc f3.lexc
+define Lexiconf3;
+
+######### Rewrite rules
+
+###
+define UganiAClass          ි -> ් || A _ "^" Cf3 ;
+define UganiBClass          උ ග න ි -> ඉ || _ "^" Bf3 ;
+define UganiCClass          උ ග න ි -> ඉ ග ෙ න || _ "^" Df3 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define ClassF3Grammar 	Lexiconf3                 .o.
+                        UganiAClass             .o.
+                        UganiBClass             .o.
+                        UganiCClass             .o.
+               	        Cleanup;
+
+define Bg1 [ ු ණ ු | ූ | ු න ෙ ම ි | ු න ෙ ම ු | ු න ෙ හ ි | ු න ෙ හ ු | ු න ේ ය | ු න ා ය | ු න ෝ ය | ව ෙ ය ි | ව ෙ ත ි | ව ේ | ී | ි ය න ් | ි ය ල ් ල ා | ි ය | ු න ො ත ් | ු න ේ];
+
+define Cg1 [ව ත ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ෙ හ ු | ව න ් න ේ ය | ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ්];
+
+
+
+read lexc g1.lexc
+define Lexicong1;
+
+######### Rewrite rules
+
+###SeraseA,HesireA,WehereA,HeppeA,DikgesseA,PelabeA
+define SeraseAClass          ෙ -> 0 || .#. [ද ි ක ් | 0] A [ ැ | ෙ] A [ි | 0 | ැ | ්] A _  "^" [Bg1 | Cg1] ;
+
+###SeraseB,HesireB,WehereB,HeppeB,DikgesseB
+define SeraseBClass          ැ -> 0 || .#. [ද ි ක ් | 0] A _ A [ි | 0 | ැ | ්] A  "^" Cg1 ;
+
+define HesireCClass           ි -> ු || .#. A A _ A  "^" Cg1 ;
+define WehereCClass          ැ -> 0 || .#. A A _ A  "^" Cg1 ;
+
+###DeneA,YedeA,ThereA,PeedeA
+define DeneAClass            ෙ -> 0 || .#. A [ ැ | ෙ | ේ | ෑ] A _  "^" [Bg1 | Cg1] ;
+
+define DeneBClass            ැ -> 0 || .#. A _ A  "^" Cg1 ;
+
+###YedeB,PelabeB
+define YedeBClass            ෙ -> ො || .#. A _ A [්| 0] [A | 0]  "^" Cg1 ;
+
+define ThereBClass           ේ -> ෝ || .#. A _ A  "^" Cg1 ;
+define PeedeBClass           ෑ -> ා || .#. A _ A  "^" Cg1 ;
+
+define IpadeAClass           ෙ -> 0 || .#. ඉ A A _  "^" [Bg1 | Cg1] ;
+define IpadeBClass           ඉ -> උ || .#. _ A A  "^" Cg1 ;
+
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classg1Grammar 	Lexicong1               .o.
+                        SeraseAClass          .o.
+                        SeraseBClass          .o.
+                        HesireCClass          .o.
+                        WehereCClass          .o.
+                        DeneAClass            .o.
+                        DeneBClass            .o.
+                        YedeBClass            .o.
+                        ThereBClass           .o.
+                        PeedeBClass           .o.
+                        IpadeAClass           .o.
+                        IpadeBClass           .o.
+               	        Cleanup;
+
+
+define Bg2 [ ු ණ ු | ූ | ු න ෙ ම ි | ු න ෙ ම ු | ු න ෙ හ ි | ු න ෙ හ ු | ු න ේ ය | ු න ා ය | ු න ෝ ය | ව ෙ ය ි | ව ෙ ත ි | ව ේ | ී | ි ය න ් | ි ය ල ් ල ා];
+
+define Cg2 [ව ත ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ෙ හ ු | ව න ් න ේ ය | ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ්];
+
+
+
+read lexc g2.lexc
+define Lexicong2;
+
+######### Rewrite rules
+
+###
+define ElambeClass          ෙ -> 0 || .#. [ත ි| 0] [එ| ඈ| A] [ ි| ැ| 0] [A | 0] [ ි| ැ| ්| 0] A _  "^" [Bg2 | Cg2] ;
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classg2Grammar 	Lexicong2               .o.
+                        ElambeClass           .o.
+               	        Cleanup;
+
+
+
+define Bg3 [ ු න ් | ු න ් න ෙ ම ි | ු න ් න ෙ ම ු | ු න ් න ෙ හ ි | ු න ් න ෙ හ ු | ු න ් න ේ ය | ු න ් න ා ය | ු න ් න ෝ ය | ී | ි ය න ් | ි ය ල ් ල ා | ි ය | ු න ් න ො ත ් | ු න ් න ේ ];
+
+
+
+
+read lexc g3.lexc
+define Lexicong3;
+
+######### Rewrite rules
+
+###
+define MoradeClass          ෙ -> 0 || ර A _ "^" Bg3 ;
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classg3Grammar 	Lexicong3               .o.
+                        MoradeClass           .o.
+               	        Cleanup;
+
+
+
+define Bg4 [ ු ණ ු | ු න ෙ ම ි | ු න ෙ ම ු | ු න ෙ හ ි | ු න ෙ හ ු | ු න ේ ය | ු න ා ය | ු න ෝ ය | ී | ි ය න ් | ි ය ල ් ල ා | ි ය | ු න ො ත ් | ු න ේ | ් ව ා | ් ව න ් න ේ];
+
+define Cg4 [ව | ව ත ි | ව න ් න ී ය | ව න ් න ෙ ම ි | ව න ් න ෙ ම ු | ව න ් න ෙ හ ි | ව න ් න ෙ හ ු | ව න ් න ේ ය | ව න ් න ෝ ය | ව ම ි | ව ම ු | ව ය ි | ව හ ි | ව හ ු | ව න ් න ට | ව ම ි න ්];
+
+
+
+read lexc g4.lexc
+define Lexicong4;
+
+######### Rewrite rules
+
+###
+define PeneAClass          ෙ -> 0 || න _ "^" [Bg4 | Cg4] ;
+define PeneBClass         [..] -> න ් || .#. ?* _ න "^" [Cg4] ;
+
+define GileAClass          ෙ -> 0 || ල _ "^" [Bg4 | Cg4] ;
+define GileBClass         [..] -> ල ් || .#. ?* _ ල "^" [Cg4] ;
+
+define ThibeAClass          ෙ -> 0 || බ _ "^" [Bg4 | Cg4] ;
+define ThibeBClass         [..] -> බ ් || .#. ?* _ බ "^" [Cg4] ;
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classg4Grammar 	Lexicong4                .o.
+                        PeneAClass             .o.
+                        PeneBClass             .o.
+                        GileAClass             .o.
+                        GileBClass             .o.
+                        ThibeAClass             .o.
+                        ThibeBClass             .o.
+               	        Cleanup;
+
+
+
+read lexc H.lexc
+define LexiconH;
+
+######### Rewrite rules
+
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define ClassHGrammar 	LexiconH            .o.
+                        
+               	        Cleanup;
+
+
+read lexc I1.lexc
+define LexiconI1;
+
+
+
+
+define BI1 [ි ත  ි|  ි ත ් ව ා | ු | ි න ් |  ි ල ් ල ා | ි ම ි | ි ම ු | ි ම ි ව ා  |  ි ම ු ව ා |ි ය ි | ි ව ු | ි ම ි න ්| ු ල ැ බ ූ |ි ද ් ද ී];    
+
+define CI1 [ ත ් | ත ් ත ෙ ම ි | ත ් ත ෙ ම ු | ත ් ත ෙ හ ි | ත ් ත ෙ හ ු | ත ් ත ා ය | ත ් ත ේ ය | ත ් ත ෝ ය | ත | ත ් ත ො ත ් | ත ් ත ේ];
+
+define DI1 [ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු | ු ව ෙ හ ි | ු ව ෙ හ ු | ු ව ා ය |  ු ව ේ ය | ු ව ෝ ​ ය | ේ | ෙ ම ි | ෙ ම ු | ෙ හ ි | ෙ හ ු | ෙ ය ි| ෙ ත ි | ව ෙ ය ි | ව ෙ ත ි | ව ේ ];
+
+
+
+######### Rewrite rules
+
+define CIRule1  ් -> 0 || _ "^" [BI1 | CI1 | DI1] ;
+define CIRule2  න -> 0 || _ "^" CI1 ;
+#define CIRule3  [..] -> ෙ || _ "^" CI1 ;
+define CIRule4 [..] -> ැ || ග _ න "^" DI1 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define I1Grammar 	LexiconI1 .o.
+		CIRule1		.o.
+		CIRule2		.o.
+              #	CIRule3		.o.
+		CIRule4		.o.
+		Cleanup;
+
+read lexc J1.lexc
+define LexiconJ1;
+
+
+define BJ1 [ ා ප න ් | ා ප ල ් ල ා | ා | ෑ |​ෑ ව ෙ ම ි |​ෑ ව ෙ ම ු |ෑ ව ෙ හ ි |ෑ ව ෙ හ ු |ෑ ව ා ය | ෑ ව ේ ය |ෑ ව ෝ​ ය |ෑ ව ෝ​ ත් | ෑ ව ේ];
+
+define CJ1 [ව ු ණ ු | ව ේ |ව ෙ ම ි |ව ෙ ම ු |ව ෙ හ ි |ව ෙ හ ු |ව ෙ ය ි|ව ෙ ත ි | ව ි ය];
+
+
+
+
+######### Rewrite rules
+
+define CJRule1  ා -> 0 || _ "^" BJ1  ;
+define CJRule2  [..] -> ැ || A _ "^" CJ1 ;
+define CJRule3  ා -> ෑ || _ "^" CJ1 ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define J1Grammar 	LexiconJ1 .o.
+		CJRule1		.o.
+		CJRule2		.o.
+              	CJRule3		.o.
+		Cleanup;
+
+
+
+define Bk1 [ ු ණ ු | ු න ෙ ම ි | ු න ෙ ම ු | ු න ෙ හ ි | ු න ෙ හ ු | ු න ේ ය | ු න ා ය | ු න ෝ ය | ි ය න ් | ි ය ල ් ල ා | ී | ි ය | ු න ො ත ් | ු න ේ | ී ම ට | ූ ];
+ 
+
+
+read lexc k1.lexc
+define Lexiconk1;
+
+######### Rewrite rules
+
+###
+define WeAClass          ෙ -> 0 || _ "^" Bk1 ;
+
+
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classk1Grammar 	Lexiconk1                .o.
+                        WeAClass               .o.
+               	        Cleanup;
+
+
+define BL [හ ි න ් | ය ෙ ම ි |ය ෙ ම ු |ය ෙ හ ි | ය ෙ හ ු | ය ා ය |ය ේ ය|ය ෝ ය | ය ො ත ් ];
+
+
+read lexc L.lexc
+define LexiconL;
+
+######### Rewrite rules
+
+define CLRule1        [ය]  -> ග ි || .#. _   "^" BL ;
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define ClassLGrammar 	LexiconL            .o.
+                        CLRule1          .o.
+               	        Cleanup;
+
+
+define Bm1 [ ී ප න ් | ී ප ල ් ල ා | ී | ු න ් න ු | ු න ් න ෙ ම ි | ු න ් න ෙ ම ු | ු න ් න ෙ හ ි | ු න ් න ෙ හ ු | ු න ් න ේ ය | ු න ් න ා ය | ු න ් න ෝ ය | ි ය | ු න ් න හ ො ත ් | ු න ් න ේ ];
+
+
+
+read lexc m1.lexc
+define Lexiconm1;
+
+######### Rewrite rules
+
+define DeAClass           ෙ -> 0 || A _  "^" Bm1 ;
+
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classm1Grammar 	Lexiconm1               .o.
+                        DeAClass              .o.
+               	        Cleanup;
+
+
+
+read lexc N.lexc
+define LexiconN;
+
+
+
+define BN [ ව ු |ව ් ව ෙ ම ි | ව ු ව ෙ ම ු  |​ ව ් ව ා ය |​ව ් ව ෝ ය |  ව ් ව ේ |  ව ් ව ො ත ් |​ ව ් ව ෝ ය | ​ ව ් ව ේ ය | ​ ව ් ව ෙ ​ හ ු | ​ ව ් ව ෙ ​ හ ි]; 
+define DN [ී | ී ​ප න ් |  ී ප ල ් ල ා | ි ය ];
+
+
+
+
+
+######### Rewrite rules
+
+define PClass1 ො -> ි ||  _  "^" BN ;
+define PClass2 ො -> 0 ||  _  "^" DN ;
+
+
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define ClassFifGrammar 	LexiconN            .o.
+                        PClass1          .o.
+                        PClass2          .o.
+               	        Cleanup;
+
+
+define Bo1 [ ු ණ ු | ූ | ු ව ෙ ම ි | ු ව ෙ ම ු | ු ව ෙ හ ි | ු ව ෙ හ ු | ු ව ා ය | ු ව ේ ය | ු ව ෝ ය | ව ේ | ෙ ම ි | ෙ ම ු | ෙ ය ි | ෙ හ ු | ෙ ත ි | ෙ හ ි | ව ෙ ය ි | ව ෙ ත ි | ේ | ි ය | ු ව ො ත ් | ු ව ේ ];
+
+
+
+read lexc o1.lexc
+define Lexicono1;
+
+######### Rewrite rules
+
+define KaraClass        [..]  -> ෙ || A _ A  "^" Bo1 ;
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Classo1Grammar 	Lexicono1            .o.
+                        KaraClass          .o.
+               	        Cleanup;
+
+
+read lexc Q.lexc
+define LexiconQ;
+
+
+
+define BQ [ ප න ් | ප ල ් ල ා | ි ම ි | ි ම ි ව ා | ි ම ු | ි ම ු ව ා | ි ය ි | ි ව ු | ග ෙ න |  ි ද ් ද ී | ි ත ි | ි ත ් ව ා]; 
+
+
+
+
+
+
+######### Rewrite rules
+
+define PQClass1 න ් -> ඳ ||  _  "^" BQ ;
+
+
+
+
+
+# To Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define ClassQGrammar 	LexiconQ            .o.
+                        PQClass1          .o.
+               	        Cleanup;
+
+
+
+
+regex [ClassOneGrammar|LexiconB|ClassTwoGrammar|LexiconD|LexiconE|LexiconF|LexiconG|LexiconH|LexiconI|LexiconJ|LexiconK|LexiconL|LexiconM|ClassThreeGrammar|ClassFourGrammar|ClassFiveGrammar|LexiconN|LexiconX|LexiconY|ClassSixGrammar|ClassSevenGrammar|ClassEightGrammar|ClassNineGrammar|ClassTenGrammar|LexiconAA|LexiconAB|LexiconAC|LexiconAD|LexiconAE|LexiconAF|LexiconAG|LexiconAH|LexiconAI|LexiconAJ|LexiconAK|LexiconAL|LexiconAM|ClassTenGrammar|ClassElevenGrammar|Classa1Grammar | Classa2Grammar | Classa3Grammar | Classa4Grammar | Classa5Grammar | Classa6Grammar | B1Grammar | C1Grammar | C2Grammar | C3Grammar | D1Grammar | D2Grammar | D3Grammar | D4Grammar | D5Grammar | E1Grammar | ClassE1Grammar | ClassF2Grammar | ClassF3Grammar | Classg1Grammar | Classg2Grammar | Classg3Grammar | Classg4Grammar | ClassHGrammar | I1Grammar | J1Grammar | Classk1Grammar |  ClassLGrammar | Classm1Grammar | ClassFifGrammar | Classo1Grammar | ClassQGrammar];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

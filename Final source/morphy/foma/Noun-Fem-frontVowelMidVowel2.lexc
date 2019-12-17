@@ -1,0 +1,127 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+
+LEXICON Root
+NounFemFrontMidVowelStem2;
+
+LEXICON NounFemFrontMidVowelStem2 
+
+ඇතිනි	NounFemFrontMidVowel2;
+උවැසි	NounFemFrontMidVowel2;
+එකි	NounFemFrontMidVowel2;
+කැකුළි	NounFemFrontMidVowel2;
+කිකිළි	NounFemFrontMidVowel2;
+කිඳුරි	NounFemFrontMidVowel2;
+කිරිල්ලි	NounFemFrontMidVowel2;
+කිවිඳි	NounFemFrontMidVowel2;
+කුමරි	NounFemFrontMidVowel2;
+කෙකිනි	NounFemFrontMidVowel2;
+කෙවිලි	NounFemFrontMidVowel2;
+කොමළි	NounFemFrontMidVowel2;
+ගැබිනි	NounFemFrontMidVowel2;
+ගැහැණි	NounFemFrontMidVowel2;			
+ගැහැනි	NounFemFrontMidVowel2;			
+ගෑණි	NounFemFrontMidVowel2;		
+ගෑනි	NounFemFrontMidVowel2;		
+ගිරවි	NounFemFrontMidVowel2;
+ගෙවිලි	NounFemFrontMidVowel2;
+දැරි	NounFemFrontMidVowel2;
+නිළි	NounFemFrontMidVowel2;
+පින්වති	NounFemFrontMidVowel2;
+පින්වන්ති	NounFemFrontMidVowel2;
+පෙම්වන්ති	NounFemFrontMidVowel2;
+බැමිණි	NounFemFrontMidVowel2;
+බැළලි	NounFemFrontMidVowel2;
+බිරි	NounFemFrontMidVowel2;
+මනමාලි	NounFemFrontMidVowel2;
+මනාලි	NounFemFrontMidVowel2;
+මහත්මි	NounFemFrontMidVowel2;
+මැකිණි	NounFemFrontMidVowel2;
+මැතිනි	NounFemFrontMidVowel2;
+මිත්තණි	NounFemFrontMidVowel2;
+මිතුරි	NounFemFrontMidVowel2;
+මියුලැසි	NounFemFrontMidVowel2;
+මෙනෙවි	NounFemFrontMidVowel2;
+මෙහෙණි	NounFemFrontMidVowel2;
+මෙහෙසි	NounFemFrontMidVowel2;
+මෝඩි	NounFemFrontMidVowel2;
+යෙහෙළි	NounFemFrontMidVowel2;
+ලි	NounFemFrontMidVowel2;
+ලේලි	NounFemFrontMidVowel2;
+වහලි	NounFemFrontMidVowel2;
+වැඳිරි	NounFemFrontMidVowel2;
+වැරදිකාරි	NounFemFrontMidVowel2;
+වැලහින්නි	NounFemFrontMidVowel2;
+සිසුවි	NounFemFrontMidVowel2;
+සෙබළි	NounFemFrontMidVowel2;
+හෙදි	NounFemFrontMidVowel2;
+ළමිස්සි NounFemFrontMidVowel2;
+
+
+
+LEXICON NounFemFrontMidVowel2
+
++N+RT: #;
++N+RT+SG+DF+NOM:ය #;
++N+RT+SG+DF+ACC:ය #;
++N+RT+SG+VOC:ය #;
++N+RT+SG+DF+NOM+CJ:යත්  #;
++N+RT+SG+DF+ACC+CJ:යත්  #;
++N+RT+SG+DF+NOM+FN:යයි  #;
++N+RT+SG+DF+ACC+FN:යයි  #;
++N+RT+SG+ID+NOM:යක් #;
++N+RT+SG+ID+NOM+FN:යකි #;
++N+RT+SG+ID+NOM+CJ:යකුත් #;
++N+RT+PL+NOM:යෝ  #;
++N+RT+PL+NOM+CJ:යෝත්  #;
++N+RT+PL+NOM+FN:යෝයි  #;
++N+RT+SG+ID+ACC:යක #;
++N+RT+SG+ID+ACC+CJ:යකත් #;
++N+RT+SG+ID+ACC+FN:යකයි #;
++N+RT+PL+ACC:යන්  #;
++N+RT+PL+ACC+CJ:යනුත්  #;
++N+RT+PL+ACC+FN:යනුයි  #;
++N+RT+SG+DF+DAT:යට #;
++N+RT+SG+DF+DAT+CJ:යටත් #;
++N+RT+SG+DF+DAT+FN:යටයි #;
++N+RT+SG+ID+DAT:යකට #;
++N+RT+SG+ID+DAT+CJ:යකටත් #;
++N+RT+SG+ID+DAT+FN:යකටයි #;
++N+RT+PL+DAT:යන්ට #;
++N+RT+PL+DAT+CJ:යන්ටත් #;
++N+RT+PL+DAT+FN:යන්ටයි #;
++N+RT+SG+DF+ABL:යගෙන් #;
++N+RT+SG+DF+ABL+CJ:යගෙනුත් #;
++N+RT+SG+DF+ABL+FN:යගෙනි #;
++N+RT+SG+ID+ABL:යකගෙන් #;
++N+RT+SG+ID+ABL+CJ:යකගෙනුත් #;
++N+RT+SG+ID+ABL+FN:යකගෙනි #;
++N+RT+PL+ABL:යන්ගෙන් #;
++N+RT+PL+ABL+CJ:යන්ගෙනුත් #;
++N+RT+PL+ABL+FN:යන්ගෙනි #;
++N+RT+SG+DF+GEN:යගේ #;
++N+RT+SG+DF+GEN+CJ:යගේත් #;
++N+RT+SG+DF+GEN+FN:යගේයි #;
++N+RT+SG+DF+GEN:යගෙ #;
++N+RT+SG+DF+GEN+CJ:යගෙත් #;
++N+RT+SG+DF+GEN+FN:යගෙයි #;
++N+RT+SG+ID+GEN:යකගේ #;
++N+RT+SG+ID+GEN+CJ:යකගේත් #;
++N+RT+SG+ID+GEN+FN:යකගේයි #;
++N+RT+PL+GEN:යන්ගේ #;
++N+RT+PL+GEN+CJ:යන්ගේත් #;
++N+RT+PL+GEN+FN:යන්ගේයි #;
++N+RT+PL+VOC:යනි #;
++N+RT+SG+DF+GEN+CJ:වගේත් #;
++N+RT+SG+DF+GEN+FN:වගේයි #;
++N+RT+SG+DF+GEN:වගෙ #;
++N+RT+SG+DF+GEN+CJ:වගෙත් #;
++N+RT+SG+DF+GEN+FN:වගෙයි #;
++N+RT+SG+ID+GEN:වකගේ #;
++N+RT+SG+ID+GEN+CJ:වකගේත් #;
++N+RT+SG+ID+GEN+FN:වකගේයි #;
++N+RT+PL+GEN:වන්ගේ #;
++N+RT+PL+GEN+CJ:වන්ගේත් #;
++N+RT+PL+GEN+FN:වන්ගේයි #;
++N+RT+PL+VOC:වනි #;

@@ -1,0 +1,66 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+LEXICON Root
+NounMascGerminatedCon3stem;
+
+LEXICON NounMascGerminatedCon3stem 
+
+අඟුටු NounMascGerminatedCon3;
+අමුතු NounMascGerminatedCon3;
+ඇති NounMascGerminatedCon3;
+ඉබි NounMascGerminatedCon3;
+කප්පිති NounMascGerminatedCon3;
+කැරපොතු NounMascGerminatedCon3;
+කිනිතුලු NounMascGerminatedCon3;
+කූඩැලු NounMascGerminatedCon3;
+කෙළතොලු NounMascGerminatedCon3; 
+කොලු NounMascGerminatedCon3;
+ගරිලි NounMascGerminatedCon3;
+ගැති NounMascGerminatedCon3;
+ගුලු NounMascGerminatedCon3;
+ගෙඹි NounMascGerminatedCon3;
+ගොළුබෙලි NounMascGerminatedCon3;
+ගෝරිලි NounMascGerminatedCon3;
+ගෝණුසු NounMascGerminatedCon3;
+දන්න NounMascGerminatedCon3;
+දිළිඳු NounMascGerminatedCon3;
+දෙනා NounMascGerminatedCon3;
+නමැති NounMascGerminatedCon3;
+නැති NounMascGerminatedCon3;
+නැමති NounMascGerminatedCon3;
+නිලමැසි NounMascGerminatedCon3;
+නුවණැති NounMascGerminatedCon3;
+පැවිදි NounMascGerminatedCon3;
+බඩගැති NounMascGerminatedCon3;
+බයගුලු NounMascGerminatedCon3;
+බලු NounMascGerminatedCon3;
+බිංකුඩු NounMascGerminatedCon3;
+බියගුලු NounMascGerminatedCon3;
+බිලි NounMascGerminatedCon3;
+බූවලු NounMascGerminatedCon3;
+බෙලි NounMascGerminatedCon3;
+බේබදු NounMascGerminatedCon3;
+බෝනිකි NounMascGerminatedCon3;
+මහලු NounMascGerminatedCon3;
+මැසි NounMascGerminatedCon3;
+යමපලු NounMascGerminatedCon3;
+යුතු NounMascGerminatedCon3;
+රටවැසි NounMascGerminatedCon3;
+ලොකු NounMascGerminatedCon3;
+වසු NounMascGerminatedCon3;
+වැඩිමහලු NounMascGerminatedCon3;
+වැදි NounMascGerminatedCon3;
+සිඟිති NounMascGerminatedCon3;
+සුදු NounMascGerminatedCon3;
+සුදුසු NounMascGerminatedCon3;
+සෙසු NounMascGerminatedCon3;
+හිතැති NounMascGerminatedCon3;
+කේලම NounMascGerminatedCon3;
+
+
+LEXICON NounMascGerminatedCon3
+
++N+RT: #;
+
+ි+N+RT+PL+VOC:නි #;

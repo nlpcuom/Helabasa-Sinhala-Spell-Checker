@@ -1,0 +1,100 @@
+!!!sinhalaC1.lexc!!!
+
+Multichar_Symbols +N % +verb% %|% +part  +past% %=த்% %|% Part +PresPart +3P +2P +1P +past% %=த்% %|%  +Pres +Fut +Sg +Pl +Masc +Fem +Rat +Irr +Euph +Sandhi +Neg +Comp +Imp +Inf +RelPart +Con +Causal +Temp +Neu +PartNoun % +verb% %|% erbNoun +gerundPres +presParticiple
+
+LEXICON Root
+
+Verb ;
+
+LEXICON Verb
+
+නවති  	CeVinf;
+පවති  	CeVinf;
+නසි 	CeVinf;
+පරදි  	CeVinf;
+වළකි 	CeVinf;
+පහදි 	CeVinf;
+
+
+LEXICON CeVinf
+
+% +verb:^ #;
+% +verb% +fin% +sim% +non% +3pl:^ති #;
+% +verb% +fin% +sim% +bless% +non% +3sg:^ත්වා #;
+% +verb% +fin% +sim% +imp% +non% +2sg:^නවා #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^නවාලා #;
+% +verb% +fin% +sim% +imp% +non% +2sg:^නු #;
+% +verb% +fin% +sim% +imp% +non% +2sg:^න්න #;
+% +verb% +fin% +sim% +non% +3sgf:^න්නීය #;
+% +verb% +fin% +sim% +non% +1sg:^න්නෙමි #;
+% +verb% +fin% +sim% +bless% +non% +1sg:^න්නෙමිවා #;
+% +verb% +fin% +sim% +non% +1pl:^න්නෙමු #;
+% +verb% +fin% +sim% +bless% +non% +1pl:^න්නෙමුවා #;
+% +verb% +fin% +sim% +non% +2sg:^න්නෙහි #;
+% +verb% +fin% +sim% +bless% +non% +2sg:^න්නෙහිවා #;
+% +verb% +fin% +sim% +non% +3sg:^න්නේය #;
+% +verb% +fin% +sim% +non% +3pl:^න්නෝය #;
+% +verb% +fin% +sim% +imp% +non% +2sg:^පන් #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^පල්ලා #;
+% +verb% +fin% +sim% +non% +1sg:^මි #;
+% +verb% +fin% +sim% +bless% +non% +1sg:^මිවා #;
+% +verb% +fin% +sim% +non% +1pl:^මු #;
+% +verb% +fin% +sim% +bless% +non% +1pl:^මුවා #;
+% +verb% +fin% +sim% +non% +3sg:^යි #;
+% +verb% +fin% +sim% +caus% +non% +3pl:^වති #;
+% +verb% +fin% +sim% +caus% +non% +3sgf:^වන්නීය #;
+% +verb% +fin% +sim% +caus% +non% +1sg:^වන්නෙමි #;
+% +verb% +fin% +sim% +caus% +non% +1pl:^වන්නෙමු #;
+% +verb% +fin% +sim% +caus% +non% +2sg:^වන්නෙහි #;
+% +verb% +fin% +sim% +caus% +non% +2pl :^වන්නෙහු #;
+% +verb% +fin% +sim% +caus% +non% +3sg:^වන්නේය #;
+% +verb% +fin% +sim% +caus% +non% +3pl:^වන්නෝය #;
+% +verb% +fin% +sim% +caus% +non% +1sg:^වමි #;
+% +verb% +fin% +sim% +caus% +non% +1pl:^වමු #;
+% +verb% +fin% +sim% +caus% +non% +3sg:^වයි #;
+% +verb% +fin% +sim% +caus% +non% +2sg:^වහි #;
+% +verb% +fin% +sim% +caus% +non% +2pl:^වහු #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^වු #;
+% +verb% +fin% +sim% +non% +2sg:^හි #;
+% +verb% +fin% +sim% +bless% +non% +2sg:^හිවා #;
+% +verb% +fin% +sim% +imp% +non% +2pl:^හු #;
+% +verb% +fin% +sim% +caus% +non% +2pl:^හුවා #;
+% +verb% +fin% +sim% +bless% +non% +3sg:^ීවා #;
+% +verb% +nonf% +sim% +non% +mixV:^මින් #;
+% +verb% +nonf% +sim% +non% +preV:^ා #;
+% +verb% +nonf% +sim% +non:^න්නට #;
+% +verb% +nonf% +sim% +non:^න්නට #;
+% +verb% +nonf% +sim% +past:^නලද #;
+% +verb% +nonf% +sim% +past:^නුලැබූ #;
+% +verb% +nonf% +sim% +non:^වමින් #;
+% +verb% +nonf% +sim% +non:^ද්දී #;
+% +verb% +fin% +sim% +past:^නලදී #;
+% +verb% +nonf% +sim% +past:^ුණු #;
+% +verb% +nonf% +sim% +past:^ූ #;
+% +verb% +fin% +sim% +past% +1sg:^ුනෙමි #;
+% +verb% +fin% +sim% +past% +1pl:^ුනෙමු #;
+% +verb% +fin% +sim% +past% +2sg:^ුනෙහි #;
+% +verb% +fin% +sim% +past% +2pl:^ුනෙහු #;
+% +verb% +fin% +sim% +past% +3sg:^ුනාය #;
+% +verb% +fin% +sim% +past% +3sg:^ුනේය #;
+% +verb% +fin% +sim% +past% +3pl:^ුනෝය #;
+% +verb% +fin% +sim% +passive% +non% +3sg:^ේ #;
+% +verb% +fin% +sim% +passive% +non% +1sg:^ෙමි #;
+% +verb% +fin% +sim% +passive% +non% +1pl:^ෙමු #;
+% +verb% +fin% +sim% +passive% +non% +2pl:^ෙහි #;
+% +verb% +fin% +sim% +passive% +non% +2pl:^ෙහු #;
+% +verb% +fin% +sim% +passive% +non% +3sg:^ෙයි #;
+% +verb% +fin% +sim% +passive% +non% +3pl:^ෙති #;
+% +verb% +fin% +sim% +passive% +non% +3sg:^වෙයි #;
+% +verb% +fin% +sim% +passive% +non% +3pl:^වෙති #;
+% +verb% +fin% +sim% +passive% +non% +3sg:^වේ #;
+% +verb% +fin% +sim% +non:^ී #;
+% +verb% +nonf% +sim% +non:^ිය #;
+% +verb% +nonf% +sim% +non:^ුවොත් #;
+% +verb% +nonf% +sim% +past:^ුවේ #;
+% +verb% +nonf% +sim% +non:^න්නේ #;
+% +verb% +nonf% +sim% +non:^න #;
+% +verb% +nonf% +sim% +non:^නට #;
+% +verb% +nonf% +sim% +non% +preV:^වා #;
+% +verb% +nonf% +sim% +non:^වන්නේ #;
+% +verb% +nonf% +sim% +non:^නුයේ #;

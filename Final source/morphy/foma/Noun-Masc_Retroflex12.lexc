@@ -1,0 +1,104 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+LEXICON Root
+NounMascRetroflex11Stem;
+
+LEXICON NounMascRetroflex11Stem   
+
+අගමැතිතුම
+අගවිනිසුරුතුම
+අග්‍රවිනිශ්චයකාරතුම
+අදිකාරම්තුම
+අධ්‍යක්ෂතුම
+අධ්‍යක්‍ෂතුම
+ආචාර්යතුම
+ආණ්ඩුකාරතුම
+ආදිපාදතුම
+ඇදුරුතුම
+ඇමතිතුම
+උතුම
+එතුම
+කථානායකතුම
+ගුරුතුම
+ජනරාල්තුම
+ජනාධිපතිතුම
+තුම
+නායකතුම
+පඬිතුම
+පියතුම
+පූජකතුම
+මන්ත්‍රීතුම
+මැතිතුම
+මුදලිතුම
+රජතුම
+විද්‍යාලයාධිතුම
+විනිශ්චයකාරතුම
+විපක්ෂනායකතුම
+විපක්‍ෂනායකතුම
+හමුදාපතිතුම
+
+
+
+LEXICON NounMascRetroflex11
+
+ා+N+RT:ා  #;
+ා+N+RT+SG+DF+NOM:ා  #;
+ා+N+RT+SG+DF+ACC:ා  #;
+ා+N+RT+SG+DF+NOM+CJ:ාත්  #;
+ා+N+RT+SG+DF+ACC+CJ:ාත්  #;
+ා+N+RT+SG+DF+NOM+FN:ායි  #;
+ා+N+RT+SG+DF+ACC+FN:ායි  #;
+ා+N+RT+SG+ID+NOM:ෙක් #;
+ා+N+RT+SG+ID+NOM+FN:ෙකි #;
+ා+N+RT+SG+ID+NOM+CJ:ෙකුත් #;
+ා+N+RT+SG+ID+ACC:ෙකු #;
+ා+N+RT+SG+ID+ACC:කු #;
+ා+N+RT+SG+ID+ACC+FN:ෙකි #;
+ා+N+RT+SG+ID+ACC+CJ:ෙකුත් #;
+ා+N+RT+SG+ID+ACC+FN:කුයි #;
+ා+N+RT+SG+ID+ACC+CJ:කුත් #;
+ා+N+RT+PL+ACC:න්  #;
+ා+N+RT+PL+ACC+CJ:නුත්  #;
+ා+N+RT+PL+ACC+FN:නි  #;
+ා+N+RT+SG+DF+DAT:ාට #;
+ා+N+RT+SG+DF+DAT+CJ:ාටත් #;
+ා+N+RT+SG+DF+DAT+FN:ාටයි #;
+ා+N+RT+SG+ID+DAT:ෙකුට #;
+ා+N+RT+SG+ID+DAT+CJ:ෙකුටත් #;
+ා+N+RT+SG+ID+DAT+FN:ෙකුටයි #;
+ා+N+RT+SG+ID+DAT:කුට #;
+ා+N+RT+SG+ID+DAT+CJ:කුටත් #;
+ා+N+RT+SG+ID+DAT+FN:කුටයි #;
+ා+N+RT+PL+DAT:න්ට #;
+ා+N+RT+PL+DAT+CJ:න්ටත් #;
+ා+N+RT+PL+DAT+FN:න්ටයි #;
+ා+N+RT+SG+DF+ABL:ාගෙන් #;
+ා+N+RT+SG+DF+ABL+CJ:ාගෙනුත් #;
+ා+N+RT+SG+DF+ABL+FN:ාගෙනි #;
+ා+N+RT+SG+ID+ABL:ෙකුගෙන් #;
+ා+N+RT+SG+ID+ABL+CJ:ෙකුගෙනුත් #;
+ා+N+RT+SG+ID+ABL+FN:ෙකුගෙනි #;
+ා+N+RT+SG+ID+ABL:කුගෙන් #;
+ා+N+RT+SG+ID+ABL+CJ:කුගෙනුත් #;
+ා+N+RT+SG+ID+ABL+FN:කුගෙනි #;
+ා+N+RT+PL+ABL:න්ගෙන් #;
+ා+N+RT+PL+ABL+CJ:න්ගෙනුත් #;
+ා+N+RT+PL+ABL+FN:න්ගෙනි #;
+ා+N+RT+SG+DF+GEN:ාගේ #;
+ා+N+RT+SG+DF+GEN+CJ:ාගේත් #;
+ා+N+RT+SG+DF+GEN+FN:ාගේයි #;
+ා+N+RT+SG+DF+GEN:ගෙ #;
+ා+N+RT+SG+DF+GEN+CJ:ගෙත් #;
+ා+N+RT+SG+DF+GEN+FN:ගෙයි #;
+ා+N+RT+SG+ID+GEN:ෙකුගේ #;
+ා+N+RT+SG+ID+GEN+CJ:ෙකුගේත් #;
+ා+N+RT+SG+ID+GEN+FN:ෙකුගේයි #;
+ා+N+RT+SG+ID+GEN:කුගේ #;
+ා+N+RT+SG+ID+GEN+CJ:කුගේත් #;
+ා+N+RT+SG+ID+GEN+FN:කුගේයි #;
+ා+N+RT+PL+GEN:න්ගේ #;
+ා+N+RT+PL+GEN+CJ:න්ගේත් #;
+ා+N+RT+PL+GEN+FN:න්ගේයි #;
+ා+N+RT+PL+VOC:නි #
+ා+N+RT+SG+VOC:ෝ #

@@ -1,0 +1,23 @@
+NOUN SINHALA LEXICON (1.0)
+
+ගෙදර	   N       * (^PRED)='ගෙදර'    (^NUMB)=sg (^LIV)=no   (^PERS)=3   (^CASE)=nom.
+බත්	   N       *(^PRED)= 'බත'        (^NUMB)=pl  (^LIV)=no   (^PERS)=3    (^CASE)=nom. 
+ළමයා      N       *(^PRED)= 'ළමයා'    (^NUMB)=sg (^LIV)=yes (^PERS)=3 (^CASE)=nom.
+ළමයාගේ     N      * (^PRED)='ළමයා'    (^NUMB)=sg (^LIV)=yes   (^PERS)=3   (^CASE)=gen.
+ළමයාට       N      * (^PRED)='ළමයා'    (^NUMB)=sg (^LIV)=yes   (^PERS)=3   (^CASE)=dat.
+ළමයාගෙන්    N      * (^PRED)='ළමයා'    (^NUMB)=sg (^LIV)=yes   (^PERS)=3   (^CASE)=abl.
+පූසා        N       *(^PRED)= 'පූසා'    (^NUMB)=sg (^LIV)=yes (^PERS)=3 (^CASE)=nom.
+මම        N       *(^PRED)= 'මම'        (^NUMB)=sg (^LIV)=yes (^PERS)=1    (^CASE)=nom.
+අපි        N       * (^PRED)='අපි'         (^NUMB)=pl  (^LIV)=yes (^PERS)=1      (^CASE)=nom.
+ගස        N      *(^PRED)= 'ගස'         (^NUMB)=sg (^LIV)=no   (^PERS)=3     (^CASE)=nom.
+මේසය      N      *(^PRED)= 'මේසය'         (^NUMB)=sg (^LIV)=no   (^PERS)=3     (^CASE)=nom.
+පාසල      N      *(^PRED)= 'පාසල'     (^NUMB)=sg (^LIV)=no   (^PERS)=3    (^CASE)=nom.
+පැන්සල     N       *(^PRED)= 'පැන්සල' (^NUMB)=sg (^LIV)=no   (^PERS)=3   (^CASE)=nom.
+හට්ටිය      N       *(^PRED)= 'හට්ටිය'   (^NUMB)=sg (^LIV)=no   (^PERS)=3    (^CASE)=nom.
+කුස්සිය       N       *(^PRED)= 'කුස්සිය'   (^NUMB)=sg (^LIV)=no   (^PERS)=3   (^CASE)=nom.
+කුස්සියේ    N      * (^PRED)='කුස්සිය'       (^NUMB)=sg (^LIV)=no   (^PERS)=3 (^CASE)=gen.
+කුටියේ    N      * (^PRED)='කුටිය'       (^NUMB)=sg (^LIV)=no   (^PERS)=3 (^CASE)=gen.
+පොතක්      N       *(^PRED)= 'පොත'   (^NUMB)=sg (^LIV)=no   (^PERS)=3    (^CASE)=nom.
+පොත      N       *(^PRED)= 'පොත'   (^NUMB)=sg (^LIV)=no   (^PERS)=3    (^CASE)=nom.
+
+----

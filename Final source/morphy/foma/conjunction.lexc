@@ -1,0 +1,47 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL +LOC +UN
+LEXICON Root
+ConjunctionsStem;
+
+LEXICON ConjunctionsStem
+
+ද	conjunctions;
+හා	conjunctions;
+සහ	conjunctions;
+හෝ	conjunctions;
+එහෙත්	conjunctions;
+සමඟ	conjunctions;
+නමුත්	conjunctions;
+සමග	conjunctions;
+යැයි	conjunctions;
+හරි	conjunctions;
+ඒත්	conjunctions;
+එක්ක	conjunctions;
+දැයි	conjunctions;
+නැත්නම්	conjunctions;
+ඇතත්	conjunctions;
+නැතහොත්	conjunctions;
+නැතැයි	conjunctions;
+නැතිනම්	conjunctions;
+නොහොත්	conjunctions;
+එහෙනම්	conjunctions;
+නමුදු	conjunctions;
+හැබැයි	conjunctions;
+අතරම	conjunctions;
+ලදැයි	conjunctions;
+නැතත්	conjunctions;
+කැටුව	conjunctions;
+එක්කෝ	conjunctions;
+එනමුත්	conjunctions;
+නැතොත් conjunctions;
+
+
+
+LEXICON conjunctions
+
++N+RT: #;
+
+
+
+

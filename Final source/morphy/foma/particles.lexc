@@ -1,0 +1,166 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL +LOC +UN
+LEXICON Root
+ParticlesStem;
+
+LEXICON ParticlesStem
+	
+	
+ද	Particles;
+ය	Particles;
+ම	Particles;
+නම්	Particles;
+දී	Particles;
+යි	Particles;
+ඇත	Particles;
+නිසා	Particles;
+ව	Particles;
+විට	Particles;
+කොට	Particles;
+යුතු	Particles;
+නො	Particles;
+නැත	Particles;
+නෑ	Particles;
+වඩා	Particles;
+ඉතා	Particles;
+නැහැ	Particles;
+පමණක්	Particles;
+මහා	Particles;
+පමණ	Particles;
+නොවේ	Particles;
+නොව	Particles;
+යනු	Particles;
+සහිත	Particles;
+හරි	Particles;
+පවා	Particles;
+තමයි	Particles;
+එනම්	Particles;
+බැවින්	Particles;
+වඩාත්	Particles;
+එවැනි	Particles;
+ආදී	Particles;
+පැවති	Particles;
+වත්	Particles;
+පමණි	Particles;
+වෙන්	Particles;
+ඕනෑ	Particles;
+එපා	Particles;
+එවිට	Particles;
+යනුවෙන්	Particles;
+ඔව්	Particles;
+ඉතින්	Particles;
+ඇයි	Particles;
+තෙක්	Particles;
+මොකද	Particles;
+බැව්	Particles;
+ඕන	Particles;
+යුත්	Particles;
+හොත්	Particles;
+අයුරින්	Particles;
+අයුරු	Particles;
+වනාහි	Particles;
+නැත්නම්	Particles;
+යුක්ත	Particles;
+නේද	Particles;
+බැහැ	Particles;
+හැටි	Particles;
+බෑ	Particles;
+තවදුරටත්	Particles;
+තුරු	Particles;
+හරියට	Particles;
+නැද්ද	Particles;
+ඉතාමත්	Particles;
+එතකොට	Particles;
+ලත්	Particles;
+ලෙසින්	Particles;
+සහගත	Particles;
+වැනිදා	Particles;
+ඕනෙ	Particles;
+සැටි	Particles;
+බැගින්	Particles;
+යනුවෙනි	Particles;
+උප	Particles;
+යැ	Particles;
+ඔන්න	Particles;
+විතරක්	Particles;
+සේක	Particles;
+පස්සේ	Particles;
+නිසාම	Particles;
+හරිම	Particles;
+මොනවා	Particles;
+අන්න	Particles;
+විටෙක	Particles;
+ඉදින්	Particles;
+මන්ද	Particles;
+සඳ	Particles;
+තවද	Particles;
+සමගම	Particles;
+මොනවද	Particles;
+එවන්	Particles;
+මෙන්න	Particles;
+අන්දමින්	Particles;
+වේවා	Particles;
+වෙනි	Particles;
+හුදෙක්	Particles;
+නොමැතිව	Particles;
+විතර	Particles;
+විටම	Particles;
+නිසාත්	Particles;
+ඇත්නම්	Particles;
+පාහේ	Particles;
+රහිත	Particles;
+දැනටමත්	Particles;
+මෑත	Particles;
+කෝ	Particles;
+තාක්	Particles;
+පෙරේදා	Particles;
+විටක	Particles;
+සම්පන්න	Particles;
+මැනවි	Particles;
+ල	Particles;
+මැ	Particles;
+සමඟම	Particles;
+එතෙක්	Particles;
+ඈතින්	Particles;
+පාසා	Particles;
+මෙහා	Particles;
+හින්දා	Particles;
+හරියටම	Particles;
+විරහිත	Particles;
+හෙබි	Particles;
+නොමිලේ	Particles;
+එවක	Particles;
+පමණට	Particles;
+ආයුබෝවන්	Particles;
+වෙනිදා	Particles;
+නිති	Particles;
+ලු	Particles;
+නොමිලයේ	Particles;
+කොල	Particles;
+සේක්වා	Particles;
+එනයින්	Particles;
+විරහිතව	Particles;
+මනන්	Particles;
+එම්බල	Particles;
+ලත	Particles;
+හාපුරා	Particles;
+හින්දම	Particles;
+කොයිබට	Particles;
+ඉතිර	Particles;
+සොඳේ	Particles;
+කොයිබ	Particles;
+සටපට	Particles;
+සටසට	Particles;
+
+
+
+
+
+LEXICON Particles
+
++N+RT: #;
+
+
+
+

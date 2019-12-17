@@ -1,0 +1,29 @@
+!!!nouns.lexc!!!
+
+Multichar_Symbols N +RT +SG +DF +NOM +CJ +NOM +ACC +ID +FN +VOC +PL +DAT +GEN +ABL 
+LEXICON Root
+NounMascConstant1LStem;
+
+LEXICON NounMascConstant1LStem   
+
+හිවල NounMascConstant1;
+හුරතල NounMascConstant1;
+සුරතල NounMascConstant1;
+සැවුල NounMascConstant1;
+වැඩිමල NounMascConstant1;
+වවුල NounMascConstant1;
+වහල NounMascConstant1;
+රංකුඹල NounMascConstant1;
+බළල NounMascConstant1;
+
+
+
+
+LEXICON NounMascConstant1
+
+
+්+N+RT+PL+ACC:්ලු  #;
+්+N+RT+PL+ACC+CJ:්ලුත්  #;
+්+N+RT+PL+ACC+FN:්ලුයි  #;
+
+
